@@ -12,7 +12,7 @@
                 або
                 <a href="https://old.paradobuvi.ua/">Стара версія сайту </a>
             </p>
-            <button class="header-problem__close">
+            <button class="header-problem__close" aria-labelledby="header-problem__close">
                 <svg class="svgIcon iconClose">
                     <use xlink:href="#iconClose" />
                 </svg>
@@ -87,7 +87,7 @@
             </div>
 
             <div class="header-logo">
-                <a href="index.html">
+                <a href="index.html" aria-label="Parad obuvi">
                     <svg class="svgIcon iconLogo">
                         <use xlink:href="#iconLogo" />
                     </svg>
@@ -96,7 +96,7 @@
 
             <nav class="header-nav__min-menu">
                 <div class="header-search">
-                    <form class="header-form__search">
+                    <div class="header-form__search">
                         <button
                             class="close-search"
                             onclick="document.getElementById('myInput').value = ''"
@@ -111,7 +111,7 @@
                                 <use xlink:href="#iconMagnifier" />
                             </svg>
                         </a>
-                    </form>
+                    </div>
                     <ul class="drop-search__menu">
                         <li><a href="#">БЕЛСТА</a></li>
                         <li><a href="#">БЕЛСТА</a></li>
@@ -1918,7 +1918,7 @@
                 <img src="./img/header/Catalog-mob.webp" alt="catalog" />
             </li>
             <li class="header__acc-web">
-                <button class="pop-up__acc-btn">
+                <button class="pop-up__acc-btn" aria-labelledby="pop-up__acc-btn">
                     <svg class="svgIcon iconAccHeader">
                         <use xlink:href="#iconAccHeader" />
                     </svg>
@@ -1987,14 +1987,14 @@
                 <!-- /===================================/ -->
             </li>
             <li class="header__like-web">
-                <button class="pop-up__like-btn">
+                <button class="pop-up__like-btn" aria-labelledby="pop-up__like-btn">
                     <svg class="svgIcon iconLikeHeader">
                         <use xlink:href="#iconLikeHeader" />
                     </svg>
                 </button>
             </li>
             <li class="header__basket-web">
-                <button class="pop-up__basket-btn">
+                <button class="pop-up__basket-btn" aria-labelledby="pop-up__basket-btn">
                     <svg class="svgIcon basket-empty basketEmptyHeader">
                         <use xlink:href="#basketEmptyHeader" />
                     </svg>
@@ -2051,10 +2051,9 @@
                 </div>
                 <div class="mobile-menu__hor-line"></div>
                 <div class="mobile-menu__item contactsList">
-                    <!-- <svg class="phone-icon">
+                    <svg class="svgIcon phone-icon">
                         <use href="#phone-icon"></use>
-                    </svg> -->
-                    <img src="img/header/phone.webp" alt="phone" />
+                    </svg>
                     <p class="mobile-menu__text">Контакты</p>
                 </div>
                 <div class="mobile-menu__hor-line"></div>
@@ -2064,7 +2063,7 @@
                     </svg>
                     <!-- <img src="img/header/clock.webp" alt="clock" /> -->
                     <p class="mobile-menu__text">График работы</p>
-                    <svg style="width: 15px; height: 7.55px" class="arrow_test">
+                    <svg class="test1 arrow_test">
                         <use href="#test1" fill="none"></use>
                     </svg>
                     <!-- <img
