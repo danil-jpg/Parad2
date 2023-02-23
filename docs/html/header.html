@@ -1,16 +1,20 @@
 <header class="header">
     <div class="header-problem header-menu-padding-0">
-        <div class="header-problem__container reset">
+        <div class="header-problem__container container reset">
             <p>
                 Проблеми на сайті? Тех.підтримка
-                <a href="tel:0672611621"> 0672611621 </a>
+                <a href="tel:0672611621" class="letter-spacing-007">
+                    0672611621
+                </a>
                 або
                 <a
                     href="https://www.youtube.com/watch?v=WRnOt922Kdc&feature=youtu.be"
-                    >дивіться відео
+                    >Перегляньте відео
                 </a>
                 або
-                <a href="https://old.paradobuvi.ua/">Стара версія сайту </a>
+                <a href="https://old.paradobuvi.ua/"
+                    >перейдіть до Попередньої версії сайту</a
+                >
             </p>
             <button
                 class="header-problem__close"
@@ -23,29 +27,29 @@
         </div>
     </div>
     <div class="header-main">
-        <div class="header-main__container reset">
+        <div class="header-main__container container reset">
             <div class="header-main__drop-block">
                 <div class="header-main__drop-buyers">
                     <button class="btn__drop-buyer">
-                        <p>покупателям</p>
+                        <p>Покупцям</p>
                         <svg class="svgIcon dropArrowMenu">
                             <use xlink:href="#dropArrowMenu" />
                         </svg>
                     </button>
                     <ul class="drop-buyer-block__list">
-                        <li><a href="#">Сотрудничество</a></li>
-                        <li><a href="#">Оплата и доставка</a></li>
-                        <li><a href="#">Ответы на вопросы</a></li>
-                        <li><a href="#">Наши примущества</a></li>
-                        <li><a href="#">Отзывы о брендах</a></li>
-                        <li><a href="#">Оценка нашей работы</a></li>
-                        <li><a href="#">Контакты</a></li>
-                        <li><a href="#">График работы</a></li>
+                        <li><a href="#">Умови співпраці</a></li>
+                        <li><a href="#">Оплата і доставка</a></li>
+                        <li><a href="#">Відповіді на питання</a></li>
+                        <li><a href="#">Наші переваги</a></li>
+                        <li><a href="#">Відгуки про бренди</a></li>
+                        <li><a href="#">Оцінка нашої роботи</a></li>
+                        <li><a href="#">Контакти</a></li>
+                        <li><a href="#">Графік роботи</a></li>
                     </ul>
                 </div>
                 <div class="header-main__drop-tell-block">
                     <button class="header-main__drop-tell">
-                        <p>+ 38 093 451 90 98</p>
+                        <p>+ 38 096 815 65 63</p>
                         <svg class="svgIcon dropArrowMenu">
                             <use xlink:href="#dropArrowMenu" />
                         </svg>
@@ -72,14 +76,14 @@
                             >
                         </li>
                         <li>
-                            <h5>График работы</h5>
-                            <p>с 08:00 да 17:00</p>
+                            <h5>Графік роботи</h5>
+                            <p>з 08:00 да 17:00</p>
                         </li>
                         <li>
-                            <h5>Воскресенье</h5>
+                            <h5>Неділя</h5>
                             <p>с 10:00 да 15:00</p>
                         </li>
-                        <li><span>Выходной: Пятница</span></li>
+                        <li><span>вИХІДНИЙ: П’ЯТНИЦЯ</span></li>
                         <li>
                             <button class="btn__call-back">
                                 Зворотній дзвінок
@@ -137,6 +141,15 @@
                             <use xlink:href="#btnLanguageHeader" />
                         </svg>
                     </button>
+                    <button
+                        class="pop-up__acc-btn"
+                        aria-label="pop-up__acc-btn"
+                    >
+                        <svg class="svgIcon iconAccHeader">
+                            <use xlink:href="#iconAccHeader" />
+                        </svg>
+                    </button>
+
                     <ul class="header__length-block">
                         <li>
                             <a href="#" class="active" id="active__length-block"
@@ -149,87 +162,15 @@
                             >
                         </li>
                     </ul>
-                </div>
-                <div class="header__acc-web">
-                    <button class="pop-up__acc-btn">
-                        <svg class="svgIcon iconAccHeader">
-                            <use xlink:href="#iconAccHeader" />
-                        </svg>
-                    </button>
-                    <!-- Если вошел в аккаунт но нет менеджера -->
-                    <ul class="header__acc-noManager noActive">
-                        <h3>Вітаємо, Juice</h3>
-                        <li>
-                            <a href="#">
-                                <svg class="svgIcon iconAcc">
-                                    <use xlink:href="#iconAcc" />
-                                </svg>
-                                <p>Мій профіль</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <svg class="svgIcon orders">
-                                    <use xlink:href="#orders" />
-                                </svg>
-                                <p>Мої замовлення</p>
-                            </a>
-                        </li>
-                        <a href="#" class="profile-exit">Вийти</a>
-                    </ul>
-
-                    <!-- Если вошел в аккаунт и есть менеджера -->
-                    <ul class="header__acc-manager active">
-                        <h3>Вітаємо, Juice</h3>
-                        <li>
-                            <a href="#">
-                                <svg class="svgIcon iconAcc">
-                                    <use xlink:href="#iconAcc" />
-                                </svg>
-                                <p>Мій профіль</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <svg class="svgIcon iconOrders">
-                                    <use xlink:href="#iconOrders" />
-                                </svg>
-                                <p>Мої замовлення</p>
-                            </a>
-                        </li>
-                        <span></span>
-                        <li>
-                            <a href="#">
-                                <svg class="svgIcon iconManager">
-                                    <use xlink:href="#iconManager" />
-                                </svg>
-                                <p>
-                                    <span>Ваш менеджер:</span> Шиманська Олена
-                                </p>
-                            </a>
-                        </li>
-                        <li>
-                            <button class="btn-viber">
-                                <svg class="svgIcon iconViber">
-                                    <use xlink:href="#iconViber" />
-                                </svg>
-                                <p>+38 (093) 612-8565</p>
-                            </button>
-                        </li>
-                        <a href="#" class="profile-exit">Вийти</a>
-                    </ul>
-
-                    <!-- /===================================/ -->
-                </div>
-                <div class="header__like-web">
                     <button class="pop-up__like-btn">
                         <svg class="svgIcon iconLikeHeader">
                             <use xlink:href="#iconLikeHeader" />
                         </svg>
                     </button>
-                </div>
-                <div class="header__basket-web">
-                    <button class="pop-up__basket-btn">
+                    <button
+                        class="pop-up__basket-btn"
+                        aria-label="pop-up__basket-btn"
+                    >
                         <svg class="svgIcon basket-empty basketEmptyHeader">
                             <use xlink:href="#basketEmptyHeader" />
                         </svg>
@@ -240,49 +181,27 @@
                         </svg>
                         <p class="basket-number display-none">1</p>
                     </button>
-                    <!-- если кошик порожній -->
-                    <ul class="header__basket-empty active">
-                        <li>
-                            <p>
-                                Кошик порожній, але це ніколи не пізно виправити
-                                :)
-                            </p>
-                        </li>
-                    </ul>
-                    <!-- Если кошик имеет товар -->
-                    <ul class="header__basket-filled noActive">
-                        <li>
-                            <p>У вашому кошику</p>
-                        </li>
-                        <li>
-                            <span>1 упаковка</span>
-                        </li>
-                        <li>
-                            <p>На загальну суму</p>
-                        </li>
-                        <li>
-                            <span>4560 ГРН</span>
-                        </li>
-                        <li>
-                            <a href="#">Перейти до кошика</a>
-                        </li>
-                    </ul>
+
                 </div>
+                </div>
+
+                <div class="header__like-web">
+
             </nav>
         </div>
     </div>
     <div
-        class="header-menu header-menu__desctop header-menu-padding-0 reset header__submenu__container"
+        class="header-menu header-menu__desctop header-menu-padding-0 reset header__submenu__container container"
     >
-        <div class="header-menu__container">
+        <div class="header-menu__container container">
             <ul class="header-menu-list">
                 <li class="header-menu-link">
-                    <p>Новинки</p>
+                    <a href="#">Новинки</a>
                     <nav class="sub-menu__block-level-1">
                         <ul class="sub-menu__level-1">
                             <li>
                                 <div class="sub-menu__block-text-1">
-                                    <a href="#">Женская обувь</a>
+                                    <a href="#"> Жіноче взуття</a>
                                     <svg class="svgIcon arrowRightDopMenu">
                                         <use xlink:href="#arrowRightDopMenu" />
                                     </svg>
@@ -380,7 +299,7 @@
                             </li>
                             <li>
                                 <div class="sub-menu__block-text-1">
-                                    <a href="#">Мужская обувь</a>
+                                    <a href="#">Чоловіче взуття</a>
                                     <svg class="svgIcon arrowRightDopMenu">
                                         <use xlink:href="#arrowRightDopMenu" />
                                     </svg>
@@ -478,7 +397,7 @@
                             </li>
                             <li>
                                 <div class="sub-menu__block-text-1">
-                                    <a href="#">Детская обувь</a>
+                                    <a href="#">Дитяче взуття</a>
                                     <svg class="svgIcon arrowRightDopMenu">
                                         <use xlink:href="#arrowRightDopMenu" />
                                     </svg>
@@ -576,7 +495,7 @@
                             </li>
                             <li>
                                 <div class="sub-menu__block-text-1">
-                                    <a href="#">Аксессуары</a>
+                                    <a href="#">Аксессуари</a>
                                     <svg class="svgIcon arrowRightDopMenu">
                                         <use xlink:href="#arrowRightDopMenu" />
                                     </svg>
@@ -602,7 +521,7 @@
                     </nav>
                 </li>
                 <li class="header-menu-link">
-                    <p>Мужчинам</p>
+                    <a href="#">Чоловіче взуття</a>
                     <nav class="sub-menu__block-level-1">
                         <ul class="sub-menu__level-2">
                             <li>
@@ -651,7 +570,7 @@
                     </nav>
                 </li>
                 <li class="header-menu-link">
-                    <p>Женщинам</p>
+                    <a href="#">Жіноче взуття</a>
                     <nav class="sub-menu__block-level-1">
                         <ul class="sub-menu__level-2 width-3__column">
                             <li>
@@ -713,7 +632,7 @@
                     </nav>
                 </li>
                 <li class="header-menu-link">
-                    <p>Детям</p>
+                    <a href="#">Дитяче взуття</a>
                     <nav class="sub-menu__block-level-1">
                         <ul class="sub-menu__level-2">
                             <li>
@@ -762,695 +681,7 @@
                     </nav>
                 </li>
                 <li class="header-menu-link">
-                    <p>Made in Ukraine</p>
-                    <nav class="sub-menu__block-level-1">
-                        <ul class="sub-menu__level-1">
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <a href="#">Женская обувь</a>
-                                    <svg class="svgIcon arrowRightDopMenu">
-                                        <use xlink:href="#arrowRightDopMenu" />
-                                    </svg>
-                                </div>
-                                <nav class="sub-menu__block-level-2">
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <a href="#">Мужская обувь</a>
-                                    <svg class="svgIcon arrowRightDopMenu">
-                                        <use xlink:href="#arrowRightDopMenu" />
-                                    </svg>
-                                </div>
-                                <nav class="sub-menu__block-level-2">
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <a href="#">Детская обувь</a>
-                                    <svg class="svgIcon arrowRightDopMenu">
-                                        <use xlink:href="#arrowRightDopMenu" />
-                                    </svg>
-                                </div>
-                                <nav class="sub-menu__block-level-2">
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <a href="#">Аксессуары</a>
-                                    <svg class="svgIcon arrowRightDopMenu">
-                                        <use xlink:href="#arrowRightDopMenu" />
-                                    </svg>
-                                </div>
-                                <nav class="sub-menu__block-level-2">
-                                    <ul class="sub-menu__level-2 for-kids-2">
-                                        <li>
-                                            <a href="#"> Сумки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Ремни</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Средства для ухода</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Коробки под пары</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li class="sub-menu__link-warning">
-                                <p>Описание раздела</p>
-                                <svg class="svgIcon iconWarning">
-                                    <use xlink:href="#iconWarning" />
-                                </svg>
-                            </li>
-                            <li class="sub-menu__link-description">
-                                <p>
-                                    Не проданный или разонравившийся Вам товар
-                                    возвратить либо обменять категорически
-                                    нельзя. Гарантий качества на обувь в
-                                    процессе эксплуатации не предоставляем.
-                                </p>
-                            </li>
-                        </ul>
-                    </nav>
-                </li>
-                <li class="header-menu-link">
-                    <p>Под заказ</p>
-                    <nav
-                        class="sub-menu__block-level-1 sub-menu__block-level-position-1"
-                    >
-                        <ul class="sub-menu__level-1">
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <svg class="svgIcon arrowLeftDopMenu">
-                                        <use xlink:href="#arrowLeftDopMenu" />
-                                    </svg>
-                                    <a href="#">Женская обувь</a>
-                                </div>
-                                <nav
-                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
-                                >
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <svg class="svgIcon arrowLeftDopMenu">
-                                        <use xlink:href="#arrowLeftDopMenu" />
-                                    </svg>
-                                    <a href="#">Мужская обувь</a>
-                                </div>
-                                <nav
-                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
-                                >
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <svg class="svgIcon arrowLeftDopMenu">
-                                        <use xlink:href="#arrowLeftDopMenu" />
-                                    </svg>
-                                    <a href="#">Детская обувь</a>
-                                </div>
-                                <nav
-                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
-                                >
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <svg class="svgIcon arrowLeftDopMenu">
-                                        <use xlink:href="#arrowLeftDopMenu" />
-                                    </svg>
-                                    <a href="#">Аксессуары</a>
-                                </div>
-                                <nav
-                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
-                                >
-                                    <ul class="sub-menu__level-2 for-kids-2">
-                                        <li>
-                                            <a href="#"> Сумки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Ремни</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Средства для ухода</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Коробки под пары</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li class="sub-menu__link-warning">
-                                <svg class="svgIcon iconWarning">
-                                    <use xlink:href="#iconWarning" />
-                                </svg>
-                                <p>Описание раздела</p>
-                            </li>
-                            <li class="sub-menu__link-description">
-                                <p>
-                                    Не проданный или разонравившийся Вам товар
-                                    возвратить либо обменять категорически
-                                    нельзя. Гарантий качества на обувь в
-                                    процессе эксплуатации не предоставляем.
-                                </p>
-                            </li>
-                        </ul>
-                    </nav>
-                </li>
-                <li class="header-menu-link">
-                    <p>Аксессуары</p>
+                    <a href="#">Аксессуари</a>
                     <nav
                         class="sub-menu__block-level-1 sub-menu__block-level-position-1"
                     >
@@ -1467,7 +698,696 @@
                     </nav>
                 </li>
                 <li class="header-menu-link">
-                    <p>Бренды</p>
+                    <a href="#">На замовлення</a>
+                    <nav
+                        class="sub-menu__block-level-1 sub-menu__block-level-position-1"
+                    >
+                        <ul class="sub-menu__level-1">
+                            <li>
+                                <div class="sub-menu__block-text-1">
+                                    <svg class="svgIcon arrowLeftDopMenu">
+                                        <use xlink:href="#arrowLeftDopMenu" />
+                                    </svg>
+                                    <a href="#"> Жіноче взуття</a>
+                                </div>
+                                <nav
+                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
+                                >
+                                    <ul class="sub-menu__level-2">
+                                        <li>
+                                            <a href="#">Ботинки</a>
+                                            <ul class="sub-menu__level-3">
+                                                <li>
+                                                    <a href="#"
+                                                        >Демисезонные ботинки</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        >Зимние ботинки</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Галоши</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Домашние тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Дутики</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кеды</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кроссовки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кроксы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Мокасины</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Резиновая обувь</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сандалии</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сапоги</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Слипоны</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сноубутсы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Спорт</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Туфли</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Угги</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Шлёпанцы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Эспадрильи</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Валенки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Сапоги из пены (ЭВА)</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"> Чешки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Домашние тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сникерсы</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </li>
+                            <li>
+                                <div class="sub-menu__block-text-1">
+                                    <svg class="svgIcon arrowLeftDopMenu">
+                                        <use xlink:href="#arrowLeftDopMenu" />
+                                    </svg>
+                                    <a href="#">Чоловіче взуття</a>
+                                </div>
+                                <nav
+                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
+                                >
+                                    <ul class="sub-menu__level-2">
+                                        <li>
+                                            <a href="#">Ботинки</a>
+                                            <ul class="sub-menu__level-3">
+                                                <li>
+                                                    <a href="#"
+                                                        >Демисезонные ботинки</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        >Зимние ботинки</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Галоши</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Домашние тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Дутики</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кеды</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кроссовки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кроксы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Мокасины</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Резиновая обувь</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сандалии</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сапоги</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Слипоны</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сноубутсы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Спорт</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Туфли</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Угги</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Шлёпанцы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Эспадрильи</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Валенки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Сапоги из пены (ЭВА)</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"> Чешки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Домашние тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сникерсы</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </li>
+                            <li>
+                                <div class="sub-menu__block-text-1">
+                                    <svg class="svgIcon arrowLeftDopMenu">
+                                        <use xlink:href="#arrowLeftDopMenu" />
+                                    </svg>
+                                    <a href="#">Дитяче взуття</a>
+                                </div>
+                                <nav
+                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
+                                >
+                                    <ul class="sub-menu__level-2">
+                                        <li>
+                                            <a href="#">Ботинки</a>
+                                            <ul class="sub-menu__level-3">
+                                                <li>
+                                                    <a href="#"
+                                                        >Демисезонные ботинки</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        >Зимние ботинки</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Галоши</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Домашние тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Дутики</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кеды</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кроссовки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кроксы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Мокасины</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Резиновая обувь</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сандалии</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сапоги</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Слипоны</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сноубутсы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Спорт</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Туфли</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Угги</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Шлёпанцы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Эспадрильи</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Валенки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Сапоги из пены (ЭВА)</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"> Чешки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Домашние тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сникерсы</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </li>
+                            <li>
+                                <div class="sub-menu__block-text-1">
+                                    <svg class="svgIcon arrowLeftDopMenu">
+                                        <use xlink:href="#arrowLeftDopMenu" />
+                                    </svg>
+                                    <a href="#">Аксессуари</a>
+                                </div>
+                                <nav
+                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
+                                >
+                                    <ul class="sub-menu__level-2 for-kids-2">
+                                        <li>
+                                            <a href="#"> Сумки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Ремни</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Средства для ухода</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Коробки под пары</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </li>
+                            <li class="sub-menu__link-warning">
+                                <svg class="svgIcon iconWarning">
+                                    <use xlink:href="#iconWarning" />
+                                </svg>
+                                <p>Описание раздела</p>
+                            </li>
+                            <li class="sub-menu__link-description">
+                                <p>
+                                    Не проданный или разонравившийся Вам товар
+                                    возвратить либо обменять категорически
+                                    нельзя. Гарантий качества на обувь в
+                                    процессе эксплуатации не предоставляем.
+                                </p>
+                            </li>
+                        </ul>
+                    </nav>
+                </li>
+                <li class="header-menu-link">
+                    <a href="#">Made in Ukraine</a>
+                    <nav class="sub-menu__block-level-1">
+                        <ul class="sub-menu__level-1">
+                            <li>
+                                <div class="sub-menu__block-text-1">
+                                    <a href="#"> Жіноче взуття</a>
+                                    <svg class="svgIcon arrowRightDopMenu">
+                                        <use xlink:href="#arrowRightDopMenu" />
+                                    </svg>
+                                </div>
+                                <nav class="sub-menu__block-level-2">
+                                    <ul class="sub-menu__level-2">
+                                        <li>
+                                            <a href="#">Ботинки</a>
+                                            <ul class="sub-menu__level-3">
+                                                <li>
+                                                    <a href="#"
+                                                        >Демисезонные ботинки</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        >Зимние ботинки</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Галоши</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Домашние тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Дутики</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кеды</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кроссовки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кроксы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Мокасины</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Резиновая обувь</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сандалии</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сапоги</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Слипоны</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сноубутсы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Спорт</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Туфли</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Угги</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Шлёпанцы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Эспадрильи</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Валенки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Сапоги из пены (ЭВА)</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"> Чешки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Домашние тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сникерсы</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </li>
+                            <li>
+                                <div class="sub-menu__block-text-1">
+                                    <a href="#">Чоловіче взуття</a>
+                                    <svg class="svgIcon arrowRightDopMenu">
+                                        <use xlink:href="#arrowRightDopMenu" />
+                                    </svg>
+                                </div>
+                                <nav class="sub-menu__block-level-2">
+                                    <ul class="sub-menu__level-2">
+                                        <li>
+                                            <a href="#">Ботинки</a>
+                                            <ul class="sub-menu__level-3">
+                                                <li>
+                                                    <a href="#"
+                                                        >Демисезонные ботинки</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        >Зимние ботинки</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Галоши</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Домашние тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Дутики</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кеды</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кроссовки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кроксы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Мокасины</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Резиновая обувь</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сандалии</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сапоги</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Слипоны</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сноубутсы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Спорт</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Туфли</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Угги</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Шлёпанцы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Эспадрильи</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Валенки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Сапоги из пены (ЭВА)</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"> Чешки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Домашние тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сникерсы</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </li>
+                            <li>
+                                <div class="sub-menu__block-text-1">
+                                    <a href="#">Дитяче взуття</a>
+                                    <svg class="svgIcon arrowRightDopMenu">
+                                        <use xlink:href="#arrowRightDopMenu" />
+                                    </svg>
+                                </div>
+                                <nav class="sub-menu__block-level-2">
+                                    <ul class="sub-menu__level-2">
+                                        <li>
+                                            <a href="#">Ботинки</a>
+                                            <ul class="sub-menu__level-3">
+                                                <li>
+                                                    <a href="#"
+                                                        >Демисезонные ботинки</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        >Зимние ботинки</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Галоши</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Домашние тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Дутики</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кеды</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кроссовки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Кроксы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Мокасины</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Резиновая обувь</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сандалии</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сапоги</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Слипоны</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сноубутсы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Спорт</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Туфли</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Угги</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Шлёпанцы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Эспадрильи</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Валенки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Сапоги из пены (ЭВА)</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"> Чешки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Домашние тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Сникерсы</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </li>
+                            <li>
+                                <div class="sub-menu__block-text-1">
+                                    <a href="#">Аксессуари</a>
+                                    <svg class="svgIcon arrowRightDopMenu">
+                                        <use xlink:href="#arrowRightDopMenu" />
+                                    </svg>
+                                </div>
+                                <nav class="sub-menu__block-level-2">
+                                    <ul class="sub-menu__level-2 for-kids-2">
+                                        <li>
+                                            <a href="#"> Сумки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Ремни</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Средства для ухода</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Коробки под пары</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </li>
+                            <li class="sub-menu__link-warning">
+                                <p>Описание раздела</p>
+                                <svg class="svgIcon iconWarning">
+                                    <use xlink:href="#iconWarning" />
+                                </svg>
+                            </li>
+                            <li class="sub-menu__link-description">
+                                <p>
+                                    Не проданный или разонравившийся Вам товар
+                                    возвратить либо обменять категорически
+                                    нельзя. Гарантий качества на обувь в
+                                    процессе эксплуатации не предоставляем.
+                                </p>
+                            </li>
+                        </ul>
+                    </nav>
+                </li>
+
+                <li class="header-menu-link">
+                    <a href="#">Бренди</a>
                     <nav
                         class="sub-menu__block-level-1 sub-menu__block-level-position-1"
                     >
@@ -1546,7 +1466,7 @@
                             </div>
                             <li class="sub-menu__link-description-brends">
                                 <a href="#">
-                                    <p>Все бренды</p>
+                                    <p>Все Бренди</p>
                                     <svg class="svgIcon iconArrowBrends">
                                         <use xlink:href="#iconArrowBrends" />
                                     </svg>
@@ -1556,7 +1476,7 @@
                     </nav>
                 </li>
                 <li class="header-menu-link">
-                    <p>SALE %</p>
+                    <a href="#">SALE %</a>
                     <nav
                         class="sub-menu__block-level-1 sub-menu__block-level-position-1"
                     >
@@ -1566,7 +1486,7 @@
                                     <svg class="svgIcon arrowLeftDopMenu">
                                         <use xlink:href="#arrowLeftDopMenu" />
                                     </svg>
-                                    <a href="#">Женская обувь</a>
+                                    <a href="#"> Жіноче взуття</a>
                                 </div>
                                 <nav
                                     class="sub-menu__block-level-2 sub-menu__block-level-position-2"
@@ -1666,7 +1586,7 @@
                                     <svg class="svgIcon arrowLeftDopMenu">
                                         <use xlink:href="#arrowLeftDopMenu" />
                                     </svg>
-                                    <a href="#">Мужская обувь</a>
+                                    <a href="#">Чоловіче взуття</a>
                                 </div>
                                 <nav
                                     class="sub-menu__block-level-2 sub-menu__block-level-position-2"
@@ -1766,7 +1686,7 @@
                                     <svg class="svgIcon arrowLeftDopMenu">
                                         <use xlink:href="#arrowLeftDopMenu" />
                                     </svg>
-                                    <a href="#">Детская обувь</a>
+                                    <a href="#">Дитяче взуття</a>
                                 </div>
                                 <nav
                                     class="sub-menu__block-level-2 sub-menu__block-level-position-2"
@@ -1866,7 +1786,7 @@
                                     <svg class="svgIcon arrowLeftDopMenu">
                                         <use xlink:href="#arrowLeftDopMenu" />
                                     </svg>
-                                    <a href="#">Аксессуары</a>
+                                    <a href="#">Аксессуари</a>
                                 </div>
                                 <nav
                                     class="sub-menu__block-level-2 sub-menu__block-level-position-2"
@@ -2055,30 +1975,24 @@
                     <svg class="svgIcon iconCustomer">
                         <use xlink:href="#iconCustomer" />
                     </svg>
-                    <p class="mobile-menu__text">Покупателям</p>
+                    <p class="mobile-menu__text">Покупцям</p>
                 </div>
                 <div class="mobile-menu__hor-line"></div>
                 <div class="mobile-menu__item contactsList">
                     <svg class="svgIcon phone-icon">
                         <use href="#phone-icon"></use>
                     </svg>
-                    <p class="mobile-menu__text">Контакты</p>
+                    <p class="mobile-menu__text">Контакти</p>
                 </div>
                 <div class="mobile-menu__hor-line"></div>
                 <div class="mobile-menu__item graphicList">
                     <svg class="svgIcon iconClock iconGlobe">
                         <use xlink:href="#clock-icon"></use>
                     </svg>
-                    <!-- <img src="img/header/clock.webp" alt="clock" /> -->
-                    <p class="mobile-menu__text">График работы</p>
+                    <p class="mobile-menu__text">Графік роботи</p>
                     <svg class="test1 arrow_test">
                         <use href="#test1" fill="none"></use>
                     </svg>
-                    <!-- <img
-                        class="mobile-menu__img"
-                        src="img/header/arrow.svg"
-                        alt=""
-                    /> -->
                 </div>
                 <div class="header__graphic">
                     <div class="header__graphic_left">
@@ -2105,7 +2019,7 @@
                             </p>
                         </div>
                         <div class="header__item_row">
-                            <p class="header__item header__item_day">Четверг</p>
+                            <p class="header__item header__item_day">Четвер</p>
                             <p class="header__item header__item_time">
                                 08:00 – 17:00
                             </p>
@@ -2130,7 +2044,9 @@
                         </div>
                         <div class="header__item_row">
                             <p class="header__item header__item_day">Неділя</p>
-                            <p class="header__item header__item_time">
+                            <p
+                                class="header__item header__item_time header__item_time-spec"
+                            >
                                 10:00 – 15:00
                             </p>
                         </div>
@@ -2147,7 +2063,7 @@
                 <div class="mobile-menu__hor-line"></div>
                 <div class="mobile-menu__feedback mobile-menu-1__feedback">
                     <button class="feedback-btn mobile-menu-1__btn">
-                        Оценка нашей работы
+                        Оцінка нашої роботи
                     </button>
                     <img
                         src="img/header/like.webp"
@@ -2168,14 +2084,14 @@
                         <p class="menu__return-text">Вернуться назад</p>
                     </div>
                     <div class="menu__news_texts-wr menu__news_texts-wr__idk">
-                        <p class="menu__item-text">Сотрудничество</p>
-                        <p class="menu__item-text">Оплата и доставка</p>
-                        <p class="menu__item-text">Ответы на вопросы</p>
-                        <p class="menu__item-text">Наши преимущества</p>
-                        <p class="menu__item-text">Отзывы о брендах</p>
-                        <p class="menu__item-text">Оценка нашей работы</p>
-                        <p class="menu__item-text">Контакты</p>
-                        <p class="menu__item-text">График работы</p>
+                        <p class="menu__item-text">Умови співпраці</p>
+                        <p class="menu__item-text">Оплата і доставка</p>
+                        <p class="menu__item-text">Відповіді на питання</p>
+                        <p class="menu__item-text">Наші переваги</p>
+                        <p class="menu__item-text">Відгуки про бренди</p>
+                        <p class="menu__item-text">Оцінка нашої роботи</p>
+                        <p class="menu__item-text">Контакти</p>
+                        <p class="menu__item-text">Графік роботи</p>
                         <!--bugfix-last-elem не трогать,он должен оставаться в самом низу  -->
                         <p class="bugfix-last-elem">.</p>
                     </div>
@@ -2183,7 +2099,7 @@
                         class="mobile-menu__feedback mobile-menu-1__feedback mobile-menu-1__feedback_customers mobile-menu-1__feedback_customers_1"
                     >
                         <button class="feedback-btn mobile-menu-1__btn">
-                            Оценка нашей работы
+                            Оцінка нашої роботи
                         </button>
                         <img
                             src="img/header/like.webp"
@@ -2220,14 +2136,14 @@
                         <button
                             class="menu__item-text menu__item_btn btn__call-back"
                         >
-                            Отзывы о брендах
+                            Відгуки про бренди
                         </button>
 
                         <div
                             class="mobile-menu__feedback mobile-menu-1__feedback mobile-menu-1__feedback_phones"
                         >
                             <button class="feedback-btn mobile-menu-1__btn">
-                                Оценка нашей работы
+                                Оцінка нашої роботи
                             </button>
                             <img
                                 src="img/header/like.webp"
@@ -2255,12 +2171,12 @@
                                 <p class="footer__item">Понедельник</p>
                                 <p class="footer__item active">Вторник</p>
                                 <p class="footer__item active">Среда</p>
-                                <p class="footer__item active">Четверг</p>
+                                <p class="footer__item active">Четвер</p>
                                 <p class="footer__item footer__friday active">
                                     Пятница
                                 </p>
                                 <p class="footer__item active">Субота</p>
-                                <p class="footer__item active">Воскресенье</p>
+                                <p class="footer__item active">Неділя</p>
                             </div>
                             <div class="footer__graphic_right footer__item">
                                 <p class="footer__item active">08:00 – 17:00</p>
@@ -2295,7 +2211,7 @@
                         class="mobile-menu__feedback mobile-menu-1__feedback mobile-menu-1__feedback_language"
                     >
                         <button class="feedback-btn mobile-menu-1__btn">
-                            Оценка нашей работы
+                            Оцінка нашої роботи
                         </button>
                         <img
                             src="img/header/like.webp"
@@ -2315,13 +2231,13 @@
             <div class="mobile-menu__content">
                 <p class="mobile-item__text mobile-item__news">Новинки</p>
                 <p class="mobile-item__text mobile-item__for-man menList">
-                    Мужчинам
+                    Чоловіче взуття
                 </p>
                 <p class="mobile-item__text mobile-item__for-women womenList">
-                    Женщинам
+                    Жіноче взуття
                 </p>
                 <p class="mobile-item__text mobile-item__for-children kidsList">
-                    Детям
+                    Дитяче взуття
                 </p>
                 <p
                     class="mobile-item__text mobile-item__made-in-Ukraine madeInUkraineList"
@@ -2329,15 +2245,15 @@
                     Made in Ukraine
                 </p>
                 <p class="mobile-item__text mobile-item__on-order forOrderList">
-                    Под заказ
+                    На замовлення
                 </p>
                 <p
                     class="mobile-item__text mobile-item__accessories accsesoriesList"
                 >
-                    Аксессуары
+                    Аксессуари
                 </p>
                 <p class="mobile-item__text">
-                    <a href="#">Бренды</a>
+                    <a href="#">Бренди</a>
                 </p>
                 <p
                     class="mobile-item__text mobile-item__text_red mobile-item__catalogue_last"
@@ -2347,7 +2263,7 @@
             </div>
             <div class="mobile-menu__feedback mobile-menu-2__feedback">
                 <button class="feedback-btn mobile-menu-2__btn">
-                    Оценка нашей работы
+                    Оцінка нашої роботи
                 </button>
                 <img
                     src="img/header/like.webp"
@@ -2368,10 +2284,10 @@
                     <p class="menu__return-text">Вернуться назад</p>
                 </div>
                 <div class="menu__news_texts-wr">
-                    <p class="menu__item-text menList">Мужская обувь</p>
-                    <p class="menu__item-text womenList">Женская обувь</p>
-                    <p class="menu__item-text kidsList">Детская обувь</p>
-                    <p class="menu__item-text accsesoriesList">Аксессуары</p>
+                    <p class="menu__item-text menList">Чоловіче взуття</p>
+                    <p class="menu__item-text womenList">Жіноче взуття</p>
+                    <p class="menu__item-text kidsList">Дитяче взуття</p>
+                    <p class="menu__item-text accsesoriesList">Аксессуари</p>
                 </div>
             </div>
             <div class="menu-for-mens">
@@ -2383,7 +2299,7 @@
                 </div>
                 <div class="menu__news_texts-wr">
                     <p class="menu__item-text">
-                        <a href="#">Вся мужская обувь</a>
+                        <a href="#">Вся Чоловіче взуття</a>
                     </p>
                     <p class="menu__item-text">
                         <a href="#">Ботинки</a>
@@ -2455,7 +2371,7 @@
                 </div>
                 <div class="menu__news_texts-wr">
                     <p class="menu__item-text">
-                        <a href="#">Вся женская обувь</a>
+                        <a href="#">Вся Жіноче взуття</a>
                     </p>
                     <p class="menu__item-text">
                         <a href="#">Балетки</a>
@@ -2539,7 +2455,7 @@
                 </div>
                 <div class="menu__news_texts-wr">
                     <p class="menu__item-text">
-                        <a href="#">Вся детская обувь</a>
+                        <a href="#">Вся Дитяче взуття</a>
                     </p>
                     <p class="menu__item-text">
                         <a href="#">Балетки</a>
@@ -2625,10 +2541,10 @@
                     <p class="menu__item-text">
                         <a href="#">Вся обувь Made in Ukraine</a>
                     </p>
-                    <p class="menu__item-text menList">Мужская обувь</p>
-                    <p class="menu__item-text womenList">Женская обувь</p>
-                    <p class="menu__item-text kidsList">Детская обувь</p>
-                    <p class="menu__item-text accsesoriesList">Аксессуары</p>
+                    <p class="menu__item-text menList">Чоловіче взуття</p>
+                    <p class="menu__item-text womenList">Жіноче взуття</p>
+                    <p class="menu__item-text kidsList">Дитяче взуття</p>
+                    <p class="menu__item-text accsesoriesList">Аксессуари</p>
                 </div>
             </div>
             <div class="menu-order">
@@ -2639,11 +2555,11 @@
                     <p class="menu__return-text">Вернуться назад</p>
                 </div>
                 <div class="menu__news_texts-wr">
-                    <p class="menu__item-text">Под заказ</p>
-                    <p class="menu__item-text menList">Мужская обувь</p>
-                    <p class="menu__item-text womenList">Женская обувь</p>
-                    <p class="menu__item-text kidsList">Детская обувь</p>
-                    <p class="menu__item-text accsesoriesList">Аксессуары</p>
+                    <p class="menu__item-text">На замовлення</p>
+                    <p class="menu__item-text menList">Чоловіче взуття</p>
+                    <p class="menu__item-text womenList">Жіноче взуття</p>
+                    <p class="menu__item-text kidsList">Дитяче взуття</p>
+                    <p class="menu__item-text accsesoriesList">Аксессуари</p>
                     <!--bugfix-last-elem не трогать,он должен оставаться в самом низу  -->
                     <p class="bugfix-last-elem">.</p>
                 </div>
