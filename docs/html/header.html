@@ -136,13 +136,13 @@
                 </div>
 
                 <div class="header__length-web">
-                    <button class="pop-up__length-btn">
+                    <button class="pop-up__length-btn pop-up__length-btn_pc pop-up__btn-to-close">
                         <svg class="svgIcon btnLanguageHeader">
                             <use xlink:href="#btnLanguageHeader" />
                         </svg>
                     </button>
                     <button
-                        class="pop-up__acc-btn-pc"
+                        class="pop-up__acc-btn-pc pop-up__btn-to-close"
                         aria-label="pop-up__acc-btn"
                     >
                         <svg class="svgIcon iconAccHeader">
@@ -150,7 +150,7 @@
                         </svg>
                     </button>
                     <!-- here1 -->
-                    <ul class="header__acc-manager_pc active">
+                    <ul class="header__acc-manager_pc ">
                         <h3>Вітаємо, Juice</h3>
                         <li>
                             <a href="#">
@@ -187,7 +187,7 @@
                         </li>
                         <a href="#" class="profile-exit">Вийти</a>
                     </ul>
-                    <ul class="header__length-block header__language-block">
+                    <ul class="header__length-block header__language-block ">
                         <li>
                             <a href="#" class="active" id="active__length-block"
                                 >Українська мова</a
@@ -199,13 +199,13 @@
                             >
                         </li>
                     </ul>
-                    <button class="pop-up__like-btn-pc">
+                    <button class="pop-up__like-btn-pc pop-up__like-btn">
                         <svg class="svgIcon iconLikeHeader">
                             <use xlink:href="#iconLikeHeader" />
                         </svg>
                     </button>
                     <button
-                        class="pop-up__basket-btn-pc"
+                        class="pop-up__basket-btn-pc pop-up__btn-to-close"
                         aria-label="pop-up__basket-btn"
                     >
                         <svg class="svgIcon basket-empty basketEmptyHeader">
@@ -218,6 +218,13 @@
                         </svg>
                         <p class="basket-number display-none">1</p>
                     </button>
+                    <ul class="header__basket-empty_pc ">
+                        <li>
+                            <p>
+                                Кошик порожній, але це ніколи не пізно виправити :)
+                            </p>
+                        </li>
+                    </ul>
 
                 </div>
                 </div>
@@ -1389,7 +1396,7 @@
                 </li>
                 <li class="header-menu-link  header__drop-list-order-trigger">
                     <a href="#">SALE %</a>
-                    <div class="header__drop-down-list_1_padding">
+                    <div class="header__drop-down-list_1_padding header__drop-down-list_1_sale_padding">
                         <div
                         class="header__drop-down-list_1 header__drop-down-list_1_reversed header__drop-down-list_1_order header__drop-down-list_1_sale  disabled"
                     >
