@@ -142,15 +142,52 @@
                         </svg>
                     </button>
                     <button
-                        class="pop-up__acc-btn"
+                        class="pop-up__acc-btn-pc"
                         aria-label="pop-up__acc-btn"
                     >
                         <svg class="svgIcon iconAccHeader">
                             <use xlink:href="#iconAccHeader" />
                         </svg>
                     </button>
-
-                    <ul class="header__length-block">
+                    <!-- here1 -->
+                    <ul class="header__acc-manager_pc active">
+                        <h3>Вітаємо, Juice</h3>
+                        <li>
+                            <a href="#">
+                                <svg class="svgIcon iconAcc">
+                                    <use xlink:href="#iconAcc" />
+                                </svg>
+                                <p>Мій профіль</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="svgIcon iconOrders">
+                                    <use xlink:href="#iconOrders" />
+                                </svg>
+                                <p>Мої замовлення</p>
+                            </a>
+                        </li>
+                        <span></span>
+                        <li>
+                            <a href="#">
+                                <svg class="svgIcon iconManager">
+                                    <use xlink:href="#iconManager" />
+                                </svg>
+                                <p><span>Ваш менеджер:</span> Шиманська Олена</p>
+                            </a>
+                        </li>
+                        <li>
+                            <button class="btn-viber">
+                                <svg class="svgIcon iconViber">
+                                    <use xlink:href="#iconViber" />
+                                </svg>
+                                <p>+38 (093) 612-8565</p>
+                            </button>
+                        </li>
+                        <a href="#" class="profile-exit">Вийти</a>
+                    </ul>
+                    <ul class="header__length-block header__language-block">
                         <li>
                             <a href="#" class="active" id="active__length-block"
                                 >Українська мова</a
@@ -162,13 +199,13 @@
                             >
                         </li>
                     </ul>
-                    <button class="pop-up__like-btn">
+                    <button class="pop-up__like-btn-pc">
                         <svg class="svgIcon iconLikeHeader">
                             <use xlink:href="#iconLikeHeader" />
                         </svg>
                     </button>
                     <button
-                        class="pop-up__basket-btn"
+                        class="pop-up__basket-btn-pc"
                         aria-label="pop-up__basket-btn"
                     >
                         <svg class="svgIcon basket-empty basketEmptyHeader">
@@ -194,1637 +231,1462 @@
         class="header-menu header-menu__desctop header-menu-padding-0 reset header__submenu__container container"
     >
         <div class="header-menu__container container">
-            <ul class="header-menu-list">
-                <li class="header-menu-link">
+            <nav class="w100per">
+                <ul class="header-menu-list">
+
+                <li class="header-menu-link header__drop-down-menu-trigger">
                     <a href="#">Новинки</a>
-                    <nav class="sub-menu__block-level-1">
-                        <ul class="sub-menu__level-1">
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <a href="#"> Жіноче взуття</a>
-                                    <svg class="svgIcon arrowRightDopMenu">
-                                        <use xlink:href="#arrowRightDopMenu" />
-                                    </svg>
-                                </div>
-                                <nav class="sub-menu__block-level-2">
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
+                    <div class="header__drop-down-list_1_padding">
+                        <div
+                        class="header__drop-down-list_1 header__drop-down-list_1_news disabled"
+                    >
+                        <ul class="header__drop-down-list_ul">
+                            <li class="header__drop-down-list_li header__drop-down-list_men-trigger">
+                                <a class="header__drop-down-list_text header__drop-down-list_men-trigger" href="$"
+                                    >ЧОЛОВІЧЕ ВЗУТТЯ</a
+                                >
+                                <svg class="svgIcon arrowRightDopMenu">
+                                    <use href="#arrowRightDopMenu"></use>
+                                </svg>
+                                <div class="header__drop-down-list-good_1_padding">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_mens disabled"
+                                >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">балетки</li>
+                                        <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                        <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                        <li class="header__drop-down-list-goods-li">валянки</li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ГУМОВЕ ВЗУТТЯ
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                        <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                        <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                        <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                        <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                        <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                                        <!--  -->
+                                    </ul>
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                    >
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            черевики
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
                                                 </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li
+                                                    class="header__drop-down-list-goods-li_ul_li"
+                                                ></li>
+                                            </ul>
+                                        </li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            ЧОБОТИ
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ЧОБОТИ З ПІНИ (ЕВА)
                                         </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
                                     </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <a href="#">Чоловіче взуття</a>
-                                    <svg class="svgIcon arrowRightDopMenu">
-                                        <use xlink:href="#arrowRightDopMenu" />
-                                    </svg>
+                                    </div>
                                 </div>
-                                <nav class="sub-menu__block-level-2">
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
+
+                            </li>
+                            <li class="header__drop-down-list_li header__drop-down-list_women-trigger">
+                                <a class="header__drop-down-list_text" href="$"
+                                    >ЖІНОЧЕ ВЗУТТЯ</a
+                                >
+                                <svg class="svgIcon arrowRightDopMenu">
+                                    <use href="#arrowRightDopMenu"></use>
+                                </svg>
+                                <div class="header__drop-down-list-good_1_padding">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_women disabled"
+                                >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">балетки</li>
+                                        <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                        <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                        <li class="header__drop-down-list-goods-li">валянки</li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ГУМОВЕ ВЗУТТЯ
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                        <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                        <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                        <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                        <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                        <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                                        <!--  -->
+                                    </ul>
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">снікерси</li>
+                                        <li class="header__drop-down-list-goods-li">спорт</li>
+                                        <li class="header__drop-down-list-goods-li">туфлі</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            уггі
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
                                                 </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <a href="#">Дитяче взуття</a>
-                                    <svg class="svgIcon arrowRightDopMenu">
-                                        <use xlink:href="#arrowRightDopMenu" />
-                                    </svg>
-                                </div>
-                                <nav class="sub-menu__block-level-2">
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
+                                        <li class="header__drop-down-list-goods-li">чешки</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            ЧОБОТИ
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
                                                 </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ЧОБОТИ З ПІНИ (ЕВА)
                                         </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
                                     </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <a href="#">Аксессуари</a>
-                                    <svg class="svgIcon arrowRightDopMenu">
-                                        <use xlink:href="#arrowRightDopMenu" />
-                                    </svg>
                                 </div>
-                                <nav class="sub-menu__block-level-2">
-                                    <ul class="sub-menu__level-2 for-kids-2">
-                                        <li>
-                                            <a href="#"> Сумки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Ремни</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Средства для ухода</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Коробки под пары</a>
-                                        </li>
+                                </div>
+                            </li>
+                            <li class="header__drop-down-list_li header__drop-down-list_kids-trigger">
+                                <a class="header__drop-down-list_text" href="$"
+                                    >ДИТЯЧЕ ВЗУТТЯ</a
+                                >
+                                <svg class="svgIcon arrowRightDopMenu">
+                                    <use href="#arrowRightDopMenu"></use>
+                                </svg>
+                                <div class="header__drop-down-list-good_1_padding">
+                                        <div
+                                        class="header__drop-down-list-good_1 header__drop-down-list_kids disabled"
+                                    >
+                                        <ul
+                                            class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                        >
+                                            <li class="header__drop-down-list-goods-li">балетки</li>
+                                            <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                            <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                            <li class="header__drop-down-list-goods-li">валянки</li>
+                                            <li class="header__drop-down-list-goods-li">
+                                                ГУМОВЕ ВЗУТТЯ
+                                            </li>
+                                            <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                            <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                            <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                            <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                            <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                            <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                            <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                            <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                            <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                            <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                                            <!--  -->
+                                        </ul>
+                                        <ul
+                                            class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                        >
+                                            <li class="header__drop-down-list-goods-li">снікерси</li>
+                                            <li class="header__drop-down-list-goods-li">спорт</li>
+                                            <li class="header__drop-down-list-goods-li">туфлі</li>
+                                            <li
+                                                class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                            >
+                                                уггі
+                                                <ul class="header__drop-down-list-goods-li_ul">
+                                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                                        демі
+                                                    </li>
+                                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                                        ЗИМА
+                                                    </li>
+                                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                                        літо
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="header__drop-down-list-goods-li">чешки</li>
+                                            <li
+                                                class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                            >
+                                                ЧОБОТИ
+                                                <ul class="header__drop-down-list-goods-li_ul">
+                                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                                        демі
+                                                    </li>
+                                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                                        ЗИМА
+                                                    </li>
+                                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                                        літо
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="header__drop-down-list-goods-li">
+                                                ЧОБОТИ З ПІНИ (ЕВА)
+                                            </li>
+                                            <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__drop-down-list_li header__drop-down-list_accessories-trigger">
+                                <!-- here -->
+                                <a
+                                    class="header__drop-down-list_text header__drop-down-list_text_last"
+                                    href="$"
+                                    >АКСЕСУАРИ</a
+                                >
+                                <svg class="svgIcon arrowRightDopMenu">
+                                    <use href="#arrowRightDopMenu"></use>
+                                </svg>
+                                <div class="header__drop-down-list-good_1_padding">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_accessories disabled"
+                                >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">сумки</li>
+                                        <li class="header__drop-down-list-goods-li">устілки</li>
                                     </ul>
-                                </nav>
+                                </div>
+                            </div>
                             </li>
                         </ul>
-                    </nav>
+                    </div>
+                    </div>
+
                 </li>
-                <li class="header-menu-link">
+                <li class="header-menu-link header__drop-down-list_men-trigger">
                     <a href="#">Чоловіче взуття</a>
-                    <nav class="sub-menu__block-level-1">
-                        <ul class="sub-menu__level-2">
-                            <li>
-                                <a href="#">Ботинки</a>
-                                <ul class="sub-menu__level-3">
-                                    <li>
-                                        <a href="#">Демисезонные ботинки</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Зимние ботинки</a>
-                                    </li>
-                                </ul>
+                    <div class="header__drop-down-list-good_1_padding ">
+                        <div
+                        class="header__drop-down-list-good_1 header__drop-down-list-good_forward-nesting  header__drop-down-list_mens  disabled"
+                    >
+                        <ul
+                            class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                        >
+                            <li class="header__drop-down-list-goods-li">балетки</li>
+                            <li class="header__drop-down-list-goods-li">босоніжки</li>
+                            <li class="header__drop-down-list-goods-li">ботфорти</li>
+                            <li class="header__drop-down-list-goods-li">валянки</li>
+                            <li class="header__drop-down-list-goods-li">
+                                ГУМОВЕ ВЗУТТЯ
                             </li>
-                            <li><a href="#"> Галоши</a></li>
-                            <li>
-                                <a href="#"> Домашние тапочки</a>
-                            </li>
-                            <li><a href="#"> Дутики</a></li>
-                            <li><a href="#"> Кеды</a></li>
-                            <li><a href="#"> Кроссовки</a></li>
-                            <li><a href="#"> Кроксы</a></li>
-                            <li><a href="#"> Мокасины</a></li>
-                            <li>
-                                <a href="#"> Резиновая обувь</a>
-                            </li>
-                            <li><a href="#"> Сандалии</a></li>
-                            <li><a href="#"> Сапоги</a></li>
-                            <li><a href="#"> Слипоны</a></li>
-                            <li><a href="#"> Сноубутсы</a></li>
-                            <li><a href="#"> Спорт</a></li>
-                            <li><a href="#"> Тапочки</a></li>
-                            <li><a href="#"> Туфли</a></li>
-                            <li><a href="#"> Угги</a></li>
-                            <li><a href="#"> Шлёпанцы</a></li>
-                            <li><a href="#"> Эспадрильи</a></li>
-                            <li><a href="#"> Валенки</a></li>
-                            <li>
-                                <a href="#"> Сапоги из пены (ЭВА)</a>
-                            </li>
-                            <li><a href="#"> Чешки</a></li>
-                            <li>
-                                <a href="#"> Домашние тапочки</a>
-                            </li>
-                            <li><a href="#"> Сникерсы</a></li>
-                        </ul>
-                    </nav>
-                </li>
-                <li class="header-menu-link">
-                    <a href="#">Жіноче взуття</a>
-                    <nav class="sub-menu__block-level-1">
-                        <ul class="sub-menu__level-2 width-3__column">
-                            <li>
-                                <a href="#">Ботинки</a>
-                                <ul class="sub-menu__level-3">
-                                    <li>
-                                        <a href="#">Демисезонные ботинки</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Зимние ботинки</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#"> Галоши</a></li>
-                            <li>
-                                <a href="#"> Домашние тапочки</a>
-                            </li>
-                            <li><a href="#"> Дутики</a></li>
-                            <li><a href="#"> Кеды</a></li>
-                            <li><a href="#"> Кроссовки</a></li>
-                            <li><a href="#"> Кроксы</a></li>
-                            <li><a href="#"> Мокасины</a></li>
-                            <li>
-                                <a href="#"> Резиновая обувь</a>
-                            </li>
-                            <li><a href="#"> Сандалии</a></li>
-                            <li><a href="#"> Сапоги</a></li>
-                            <li><a href="#"> Слипоны</a></li>
-                            <li><a href="#"> Сноубутсы</a></li>
-                            <li><a href="#"> Спорт</a></li>
-                            <li><a href="#"> Тапочки</a></li>
-                            <li><a href="#"> Туфли</a></li>
-                            <li><a href="#"> Угги</a></li>
-                            <li><a href="#"> Шлёпанцы</a></li>
-                            <li><a href="#"> Эспадрильи</a></li>
-                            <li><a href="#"> Валенки</a></li>
-                            <li>
-                                <a href="#"> Сапоги из пены (ЭВА)</a>
-                            </li>
-                            <li><a href="#"> Чешки</a></li>
-                            <li>
-                                <a href="#"> Домашние тапочки</a>
-                            </li>
-                            <li><a href="#"> Сникерсы</a></li>
+                            <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                            <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                            <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                            <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                            <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                            <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                            <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                            <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                            <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                            <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
                             <!--  -->
-                            <li><a href="#"> Угги</a></li>
-                            <li><a href="#"> Шлёпанцы</a></li>
-                            <li><a href="#"> Эспадрильи</a></li>
-                            <li><a href="#"> Валенки</a></li>
-                            <li>
-                                <a href="#"> Сапоги из пены (ЭВА)</a>
-                            </li>
-                            <li><a href="#"> Чешки</a></li>
-                            <li>
-                                <a href="#"> Домашние тапочки</a>
-                            </li>
-                            <li><a href="#"> Сникерсы</a></li>
                         </ul>
-                    </nav>
-                </li>
-                <li class="header-menu-link">
-                    <a href="#">Дитяче взуття</a>
-                    <nav class="sub-menu__block-level-1">
-                        <ul class="sub-menu__level-2">
-                            <li>
-                                <a href="#">Ботинки</a>
-                                <ul class="sub-menu__level-3">
-                                    <li>
-                                        <a href="#">Демисезонные ботинки</a>
+                        <ul
+                            class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                        >
+                            <li
+                                class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                            >
+                                черевики
+                                <ul class="header__drop-down-list-goods-li_ul">
+                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                        демі
                                     </li>
-                                    <li>
-                                        <a href="#">Зимние ботинки</a>
+                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                        ЗИМА
+                                    </li>
+                                    <li
+                                        class="header__drop-down-list-goods-li_ul_li"
+                                    ></li>
+                                </ul>
+                            </li>
+                            <li
+                                class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                            >
+                                ЧОБОТИ
+                                <ul class="header__drop-down-list-goods-li_ul">
+                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                        демі
+                                    </li>
+                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                        ЗИМА
+                                    </li>
+                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                        літо
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="#"> Галоши</a></li>
-                            <li>
-                                <a href="#"> Домашние тапочки</a>
+                            <li class="header__drop-down-list-goods-li">
+                                ЧОБОТИ З ПІНИ (ЕВА)
                             </li>
-                            <li><a href="#"> Дутики</a></li>
-                            <li><a href="#"> Кеды</a></li>
-                            <li><a href="#"> Кроссовки</a></li>
-                            <li><a href="#"> Кроксы</a></li>
-                            <li><a href="#"> Мокасины</a></li>
-                            <li>
-                                <a href="#"> Резиновая обувь</a>
-                            </li>
-                            <li><a href="#"> Сандалии</a></li>
-                            <li><a href="#"> Сапоги</a></li>
-                            <li><a href="#"> Слипоны</a></li>
-                            <li><a href="#"> Сноубутсы</a></li>
-                            <li><a href="#"> Спорт</a></li>
-                            <li><a href="#"> Тапочки</a></li>
-                            <li><a href="#"> Туфли</a></li>
-                            <li><a href="#"> Угги</a></li>
-                            <li><a href="#"> Шлёпанцы</a></li>
-                            <li><a href="#"> Эспадрильи</a></li>
-                            <li><a href="#"> Валенки</a></li>
-                            <li>
-                                <a href="#"> Сапоги из пены (ЭВА)</a>
-                            </li>
-                            <li><a href="#"> Чешки</a></li>
-                            <li>
-                                <a href="#"> Домашние тапочки</a>
-                            </li>
-                            <li><a href="#"> Сникерсы</a></li>
+                            <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
                         </ul>
-                    </nav>
+                        </div>
+                    </div>
                 </li>
-                <li class="header-menu-link">
+                <li class="header-menu-link header__drop-down-list_women-trigger">
+                    <a href="#">Жіноче взуття</a>
+                    <div class="header__drop-down-list-good_1_padding">
+                        <div
+                        class="header__drop-down-list-good_1 header__drop-down-list_women disabled header__drop-down-list-good_forward-nesting"
+                    >
+                        <ul
+                            class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                        >
+                            <li class="header__drop-down-list-goods-li">балетки</li>
+                            <li class="header__drop-down-list-goods-li">босоніжки</li>
+                            <li class="header__drop-down-list-goods-li">ботфорти</li>
+                            <li class="header__drop-down-list-goods-li">валянки</li>
+                            <li class="header__drop-down-list-goods-li">
+                                ГУМОВЕ ВЗУТТЯ
+                            </li>
+                            <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                            <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                            <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                            <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                            <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                            <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                            <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                            <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                            <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                            <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                            <!--  -->
+                        </ul>
+                        <ul
+                            class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                        >
+                            <li class="header__drop-down-list-goods-li">снікерси</li>
+                            <li class="header__drop-down-list-goods-li">спорт</li>
+                            <li class="header__drop-down-list-goods-li">туфлі</li>
+                            <li
+                                class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                            >
+                                уггі
+                                <ul class="header__drop-down-list-goods-li_ul">
+                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                        демі
+                                    </li>
+                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                        ЗИМА
+                                    </li>
+                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                        літо
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__drop-down-list-goods-li">чешки</li>
+                            <li
+                                class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                            >
+                                ЧОБОТИ
+                                <ul class="header__drop-down-list-goods-li_ul">
+                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                        демі
+                                    </li>
+                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                        ЗИМА
+                                    </li>
+                                    <li class="header__drop-down-list-goods-li_ul_li">
+                                        літо
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__drop-down-list-goods-li">
+                                ЧОБОТИ З ПІНИ (ЕВА)
+                            </li>
+                            <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
+                        </ul>
+                    </div>
+                    </div>
+                </li>
+                <li class="header-menu-link header__drop-down-list_kids-trigger ">
+                    <a href="#">Дитяче взуття</a>
+                        <div class="header__drop-down-list-good_1_padding">
+                            <div
+                            class="header__drop-down-list-good_1 header__drop-down-list_kids disabled header__drop-down-list-good_forward-nesting"
+                        >
+                            <ul
+                                class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                            >
+                                <li class="header__drop-down-list-goods-li">балетки</li>
+                                <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                <li class="header__drop-down-list-goods-li">валянки</li>
+                                <li class="header__drop-down-list-goods-li">
+                                    ГУМОВЕ ВЗУТТЯ
+                                </li>
+                                <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                            </ul>
+                            <ul
+                                class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                            >
+                                <li class="header__drop-down-list-goods-li">снікерси</li>
+                                <li class="header__drop-down-list-goods-li">спорт</li>
+                                <li class="header__drop-down-list-goods-li">туфлі</li>
+                                <li
+                                    class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                >
+                                    уггі
+                                    <ul class="header__drop-down-list-goods-li_ul">
+                                        <li class="header__drop-down-list-goods-li_ul_li">
+                                            демі
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li_ul_li">
+                                            ЗИМА
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li_ul_li">
+                                            літо
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__drop-down-list-goods-li">чешки</li>
+                                <li
+                                    class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                >
+                                    ЧОБОТИ
+                                    <ul class="header__drop-down-list-goods-li_ul">
+                                        <li class="header__drop-down-list-goods-li_ul_li">
+                                            демі
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li_ul_li">
+                                            ЗИМА
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li_ul_li">
+                                            літо
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__drop-down-list-goods-li">
+                                    ЧОБОТИ З ПІНИ (ЕВА)
+                                </li>
+                                <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
+                            </ul>
+                        </div>
+                        </div>
+                </li>
+                <li class="header-menu-link header__drop-down-list_accessories-trigger">
                     <a href="#">Аксессуари</a>
-                    <nav
-                        class="sub-menu__block-level-1 sub-menu__block-level-position-1"
+                    <div class="header__drop-down-list-good_1_padding">
+                        <div
+                        class="header__drop-down-list-good_1 header__drop-down-list_accessories disabled header__drop-down-list-good_forward-nesting"
                     >
-                        <ul class="sub-menu__level-2 for-kids-2">
-                            <li><a href="#"> Сумки</a></li>
-                            <li><a href="#"> Ремни</a></li>
-                            <li>
-                                <a href="#"> Средства для ухода</a>
-                            </li>
-                            <li>
-                                <a href="#"> Коробки под пары</a>
-                            </li>
+                        <ul
+                            class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                        >
+                            <li class="header__drop-down-list-goods-li">сумки</li>
+                            <li class="header__drop-down-list-goods-li">устілки</li>
                         </ul>
-                    </nav>
+                    </div>
+                </div>
                 </li>
-                <li class="header-menu-link">
+                <li class="header-menu-link header__drop-list-order-trigger">
                     <a href="#">На замовлення</a>
-                    <nav
-                        class="sub-menu__block-level-1 sub-menu__block-level-position-1"
+                    <div class="header__drop-down-list_1_padding">
+                        <div
+                        class="header__drop-down-list_1 header__drop-down-list_1_reversed header__drop-down-list_1_order  disabled"
                     >
-                        <ul class="sub-menu__level-1">
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <svg class="svgIcon arrowLeftDopMenu">
-                                        <use xlink:href="#arrowLeftDopMenu" />
-                                    </svg>
-                                    <a href="#"> Жіноче взуття</a>
-                                </div>
-                                <nav
-                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
+                        <ul class="header__drop-down-list_ul ">
+                            <li class="header__drop-down-list_li header__drop-down-list_men-trigger">
+                                <svg
+                                    class="svgIcon arrowRightDopMenu "
                                 >
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <svg class="svgIcon arrowLeftDopMenu">
-                                        <use xlink:href="#arrowLeftDopMenu" />
-                                    </svg>
-                                    <a href="#">Чоловіче взуття</a>
-                                </div>
-                                <nav
-                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
-                                >
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <svg class="svgIcon arrowLeftDopMenu">
-                                        <use xlink:href="#arrowLeftDopMenu" />
-                                    </svg>
-                                    <a href="#">Дитяче взуття</a>
-                                </div>
-                                <nav
-                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
-                                >
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <svg class="svgIcon arrowLeftDopMenu">
-                                        <use xlink:href="#arrowLeftDopMenu" />
-                                    </svg>
-                                    <a href="#">Аксессуари</a>
-                                </div>
-                                <nav
-                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
-                                >
-                                    <ul class="sub-menu__level-2 for-kids-2">
-                                        <li>
-                                            <a href="#"> Сумки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Ремни</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Средства для ухода</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Коробки под пары</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li class="sub-menu__link-warning">
-                                <svg class="svgIcon iconWarning">
-                                    <use xlink:href="#iconWarning" />
+                                    <use href="#arrowLeftDopMenu"></use>
                                 </svg>
-                                <p>Описание раздела</p>
+                                <a class="header__drop-down-list_text" href="$"
+                                    >ЧОЛОВІЧЕ ВЗУТТЯ</a
+                                >
+                                <div class="header__drop-down-list-good_1_padding ">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_mens disabled header__drop-down-list-good_reversed"
+                                    >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">балетки</li>
+                                        <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                        <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                        <li class="header__drop-down-list-goods-li">валянки</li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ГУМОВЕ ВЗУТТЯ
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                        <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                        <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                        <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                        <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                        <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                                        <!--  -->
+                                    </ul>
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                    >
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            черевики
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li
+                                                    class="header__drop-down-list-goods-li_ul_li"
+                                                ></li>
+                                            </ul>
+                                        </li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            ЧОБОТИ
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ЧОБОТИ З ПІНИ (ЕВА)
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
+                                    </ul>
+                                    </div>
+                                    </div>
                             </li>
-                            <li class="sub-menu__link-description">
-                                <p>
-                                    Не проданный или разонравившийся Вам товар
-                                    возвратить либо обменять категорически
-                                    нельзя. Гарантий качества на обувь в
-                                    процессе эксплуатации не предоставляем.
-                                </p>
+                            <li class="header__drop-down-list_li header__drop-down-list_women-trigger">
+                                <svg
+                                    class="svgIcon arrowRightDopMenu "
+                                >
+                                    <use href="#arrowLeftDopMenu"></use>
+                                </svg>
+                                <a class="header__drop-down-list_text" href="$"
+                                    >ЖІНОЧЕ ВЗУТТЯ</a
+                                >
+                                <div class="header__drop-down-list-good_1_padding">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_women disabled header__drop-down-list-good_reversed"
+                                >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">балетки</li>
+                                        <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                        <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                        <li class="header__drop-down-list-goods-li">валянки</li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ГУМОВЕ ВЗУТТЯ
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                        <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                        <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                        <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                        <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                        <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                                        <!--  -->
+                                    </ul>
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">снікерси</li>
+                                        <li class="header__drop-down-list-goods-li">спорт</li>
+                                        <li class="header__drop-down-list-goods-li">туфлі</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            уггі
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">чешки</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            ЧОБОТИ
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ЧОБОТИ З ПІНИ (ЕВА)
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </li>
+                            <li class="header__drop-down-list_li header__drop-down-list_kids-trigger">
+
+                                <svg
+                                    class="svgIcon arrowRightDopMenu "
+                                >
+                                    <use href="#arrowLeftDopMenu"></use>
+                                </svg>
+                                <a class="header__drop-down-list_text" href="$"
+                                    >ДИТЯЧЕ ВЗУТТЯ</a
+                                >
+                                <div class="header__drop-down-list-good_1_padding">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_kids disabled  header__drop-down-list-good_reversed"
+                                >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">балетки</li>
+                                        <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                        <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                        <li class="header__drop-down-list-goods-li">валянки</li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ГУМОВЕ ВЗУТТЯ
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                        <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                        <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                        <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                        <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                        <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                                        <!--  -->
+                                    </ul>
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">снікерси</li>
+                                        <li class="header__drop-down-list-goods-li">спорт</li>
+                                        <li class="header__drop-down-list-goods-li">туфлі</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            уггі
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">чешки</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            ЧОБОТИ
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ЧОБОТИ З ПІНИ (ЕВА)
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </li>
+                            <li class="header__drop-down-list_li header__drop-down-list_accessories-trigger">
+                                <svg
+                                    class="svgIcon arrowRightDopMenu "
+                                >
+                                    <use href="#arrowLeftDopMenu"></use>
+                                </svg>
+                                <a
+                                    class="header__drop-down-list_text header__drop-down-list_text_last"
+                                    href="$"
+                                    >АКСЕСУАРИ</a
+                                >
+                                <div class="header__drop-down-list-good_1_padding">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_accessories disabled header__drop-down-list-good_reversed header__drop-down-list-good_reversed_accessories"
+                                >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">сумки</li>
+                                        <li class="header__drop-down-list-goods-li">устілки</li>
+                                    </ul>
+                                </div>
+                            </div>
+                                <!-- here -->
+                                <!--  -->
+
                             </li>
                         </ul>
-                    </nav>
+                        <div class="header__drop-down_list-descr">
+                            <div class="header__drop-down_list-descr_imp-line">
+                                <svg class="svgIcon iconWarning">
+                                    <use href="#iconWarning"></use>
+                                </svg>
+                                <span class="header__drop-down_list-descr_imp-line_text"
+                                    >Опис розділу</span
+                                >
+                            </div>
+                            <span
+                                class="header__drop-down_list-descr_bottom-text header__drop-down_list-descr_bottom-text_goods"
+                            >
+                                Товари, які знаходяться на віддаленому складі або
+                                виробляються на замовлення.
+                            </span>
+                        </div>
+                    </div>  
+                    </div>
+
                 </li>
-                <li class="header-menu-link">
+                <li class="header-menu-link  header__drop-list-order-trigger">
                     <a href="#">Made in Ukraine</a>
-                    <nav class="sub-menu__block-level-1">
-                        <ul class="sub-menu__level-1">
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <a href="#"> Жіноче взуття</a>
-                                    <svg class="svgIcon arrowRightDopMenu">
-                                        <use xlink:href="#arrowRightDopMenu" />
-                                    </svg>
-                                </div>
-                                <nav class="sub-menu__block-level-2">
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <a href="#">Чоловіче взуття</a>
-                                    <svg class="svgIcon arrowRightDopMenu">
-                                        <use xlink:href="#arrowRightDopMenu" />
-                                    </svg>
-                                </div>
-                                <nav class="sub-menu__block-level-2">
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <a href="#">Дитяче взуття</a>
-                                    <svg class="svgIcon arrowRightDopMenu">
-                                        <use xlink:href="#arrowRightDopMenu" />
-                                    </svg>
-                                </div>
-                                <nav class="sub-menu__block-level-2">
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <a href="#">Аксессуари</a>
-                                    <svg class="svgIcon arrowRightDopMenu">
-                                        <use xlink:href="#arrowRightDopMenu" />
-                                    </svg>
-                                </div>
-                                <nav class="sub-menu__block-level-2">
-                                    <ul class="sub-menu__level-2 for-kids-2">
-                                        <li>
-                                            <a href="#"> Сумки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Ремни</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Средства для ухода</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Коробки под пары</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li class="sub-menu__link-warning">
-                                <p>Описание раздела</p>
-                                <svg class="svgIcon iconWarning">
-                                    <use xlink:href="#iconWarning" />
+                    <div class="header__drop-down-list_1_padding">
+                        <div
+                        class="header__drop-down-list_1 header__drop-down-list_1_reversed header__drop-down-list_1_order  disabled"
+                    >
+                        <ul class="header__drop-down-list_ul ">
+                            <li class="header__drop-down-list_li header__drop-down-list_men-trigger">
+                                <svg
+                                    class="svgIcon arrowRightDopMenu "
+                                >
+                                    <use href="#arrowLeftDopMenu"></use>
                                 </svg>
+                                <a class="header__drop-down-list_text" href="$"
+                                    >ЧОЛОВІЧЕ ВЗУТТЯ</a
+                                >
+                                <div class="header__drop-down-list-good_1_padding ">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_mens disabled header__drop-down-list-good_reversed"
+                                    >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">балетки</li>
+                                        <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                        <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                        <li class="header__drop-down-list-goods-li">валянки</li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ГУМОВЕ ВЗУТТЯ
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                        <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                        <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                        <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                        <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                        <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                                        <!--  -->
+                                    </ul>
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                    >
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            черевики
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li
+                                                    class="header__drop-down-list-goods-li_ul_li"
+                                                ></li>
+                                            </ul>
+                                        </li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            ЧОБОТИ
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ЧОБОТИ З ПІНИ (ЕВА)
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
+                                    </ul>
+                                    </div>
+                                    </div>
                             </li>
-                            <li class="sub-menu__link-description">
-                                <p>
-                                    Не проданный или разонравившийся Вам товар
-                                    возвратить либо обменять категорически
-                                    нельзя. Гарантий качества на обувь в
-                                    процессе эксплуатации не предоставляем.
-                                </p>
+                            <li class="header__drop-down-list_li header__drop-down-list_women-trigger">
+                                <svg
+                                    class="svgIcon arrowRightDopMenu "
+                                >
+                                    <use href="#arrowLeftDopMenu"></use>
+                                </svg>
+                                <a class="header__drop-down-list_text" href="$"
+                                    >ЖІНОЧЕ ВЗУТТЯ</a
+                                >
+                                <div class="header__drop-down-list-good_1_padding">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_women disabled header__drop-down-list-good_reversed"
+                                >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">балетки</li>
+                                        <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                        <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                        <li class="header__drop-down-list-goods-li">валянки</li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ГУМОВЕ ВЗУТТЯ
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                        <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                        <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                        <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                        <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                        <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                                        <!--  -->
+                                    </ul>
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">снікерси</li>
+                                        <li class="header__drop-down-list-goods-li">спорт</li>
+                                        <li class="header__drop-down-list-goods-li">туфлі</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            уггі
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">чешки</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            ЧОБОТИ
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ЧОБОТИ З ПІНИ (ЕВА)
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </li>
+                            <li class="header__drop-down-list_li header__drop-down-list_kids-trigger">
+
+                                <svg
+                                    class="svgIcon arrowRightDopMenu "
+                                >
+                                    <use href="#arrowLeftDopMenu"></use>
+                                </svg>
+                                <a class="header__drop-down-list_text" href="$"
+                                    >ДИТЯЧЕ ВЗУТТЯ</a
+                                >
+                                <div class="header__drop-down-list-good_1_padding">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_kids disabled  header__drop-down-list-good_reversed"
+                                >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">балетки</li>
+                                        <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                        <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                        <li class="header__drop-down-list-goods-li">валянки</li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ГУМОВЕ ВЗУТТЯ
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                        <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                        <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                        <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                        <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                        <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                                        <!--  -->
+                                    </ul>
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">снікерси</li>
+                                        <li class="header__drop-down-list-goods-li">спорт</li>
+                                        <li class="header__drop-down-list-goods-li">туфлі</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            уггі
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">чешки</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            ЧОБОТИ
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ЧОБОТИ З ПІНИ (ЕВА)
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </li>
+                            <li class="header__drop-down-list_li header__drop-down-list_accessories-trigger">
+                                <svg
+                                    class="svgIcon arrowRightDopMenu "
+                                >
+                                    <use href="#arrowLeftDopMenu"></use>
+                                </svg>
+                                <a
+                                    class="header__drop-down-list_text header__drop-down-list_text_last"
+                                    href="$"
+                                    >АКСЕСУАРИ</a
+                                >
+                                <div class="header__drop-down-list-good_1_padding">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_accessories disabled header__drop-down-list-good_reversed header__drop-down-list-good_reversed_accessories"
+                                >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">сумки</li>
+                                        <li class="header__drop-down-list-goods-li">устілки</li>
+                                    </ul>
+                                </div>
+                            </div>
+                                <!-- here -->
+                                <!--  -->
+
                             </li>
                         </ul>
-                    </nav>
+                        <div class="header__drop-down_list-descr">
+                            <div class="header__drop-down_list-descr_imp-line">
+                                <svg class="svgIcon iconWarning">
+                                    <use href="#iconWarning"></use>
+                                </svg>
+                                <span class="header__drop-down_list-descr_imp-line_text"
+                                    >Опис розділу</span
+                                >
+                            </div>
+                            <span
+                                class="header__drop-down_list-descr_bottom-text max-width-255"
+                            >
+                                Зроблено в Україні
+                            </span>
+                        </div>
+                    </div>  
+                    </div>
                 </li>
 
-                <li class="header-menu-link">
+                <li class="header-menu-link header__drop-list-brands-trigger">
                     <a href="#">Бренди</a>
-                    <nav
-                        class="sub-menu__block-level-1 sub-menu__block-level-position-1"
-                    >
-                        <ul class="sub-menu__level-1 sub-menu__level-brends">
-                            <div class="sub-menu__level-top-1">
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">AILINDA</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">BEEKO</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">CANOA</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">JONG.GOLF</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">LION</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">TOM.M</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">VIOLETA</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">ZDW</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">ZOOM</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">БАБОЧКА</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">БАШИЛИ</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">СКАЗКА</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">СОЛНЦЕ</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sub-menu__block-text-1">
-                                        <a href="#">ШАЛУНИШКА</a>
-                                    </div>
-                                </li>
+                    <!-- here --> 
+                    <div class="header__drop-down-list_made-in-brands-padding">
+                        <div class="header__drop-down-list_made-in-brands disabled">
+                            <div class="header__drop-down-list-good_1">
+                                <ul
+                                    class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                >
+                                    <li class="header__drop-down-list-goods-li">AILINDA</li>
+                                    <li class="header__drop-down-list-goods-li">
+                                        JULAI-KADISALUN
+                                    </li>
+                                    <li class="header__drop-down-list-goods-li">
+                                        JONG.GOLF
+                                    </li>
+                                    <li class="header__drop-down-list-goods-li">LION</li>
+                                    <li class="header__drop-down-list-goods-li">
+                                        LUCK LINE
+                                    </li>
+                                    <li class="header__drop-down-list-goods-li">MERMAID</li>
+                                    <li class="header__drop-down-list-goods-li">
+                                        NAVIGATOR
+                                    </li>
+                                    <li class="header__drop-down-list-goods-li">
+                                        PARADIZE
+                                    </li>
+                                    <li class="header__drop-down-list-goods-li">SALI</li>
+                                </ul>
+                                <ul
+                                    class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                >
+                                    <li class="header__drop-down-list-goods-li">STILLI</li>
+                                    <li class="header__drop-down-list-goods-li">TOM.M</li>
+                                    <li class="header__drop-down-list-goods-li">VIOLETA</li>
+                                    <li class="header__drop-down-list-goods-li">бабочка</li>
+                                    <li class="header__drop-down-list-goods-li">башили</li>
+                                    <li class="header__drop-down-list-goods-li">башили</li>
+                                    <li class="header__drop-down-list-goods-li">солнце</li>
+                                </ul>
                             </div>
-                            <li class="sub-menu__link-description-brends">
-                                <a href="#">
-                                    <p>Все Бренди</p>
+                            <div class="header__drop-down-list-good_descr">
+                                <a href="#" class="header__drop-down-list-good_descr_text"
+                                    >Усі бренди
                                     <svg class="svgIcon iconArrowBrends">
-                                        <use xlink:href="#iconArrowBrends" />
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                                        <use href="#iconArrowBrends"></use></svg
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
                 </li>
-                <li class="header-menu-link">
+                <li class="header-menu-link  header__drop-list-order-trigger">
                     <a href="#">SALE %</a>
-                    <nav
-                        class="sub-menu__block-level-1 sub-menu__block-level-position-1"
+                    <div class="header__drop-down-list_1_padding">
+                        <div
+                        class="header__drop-down-list_1 header__drop-down-list_1_reversed header__drop-down-list_1_order header__drop-down-list_1_sale  disabled"
                     >
-                        <ul class="sub-menu__level-1">
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <svg class="svgIcon arrowLeftDopMenu">
-                                        <use xlink:href="#arrowLeftDopMenu" />
-                                    </svg>
-                                    <a href="#"> Жіноче взуття</a>
-                                </div>
-                                <nav
-                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
+                        <ul class="header__drop-down-list_ul ">
+                            <li class="header__drop-down-list_li header__drop-down-list_men-trigger">
+                                <svg
+                                    class="svgIcon arrowRightDopMenu "
                                 >
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <svg class="svgIcon arrowLeftDopMenu">
-                                        <use xlink:href="#arrowLeftDopMenu" />
-                                    </svg>
-                                    <a href="#">Чоловіче взуття</a>
-                                </div>
-                                <nav
-                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
-                                >
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <svg class="svgIcon arrowLeftDopMenu">
-                                        <use xlink:href="#arrowLeftDopMenu" />
-                                    </svg>
-                                    <a href="#">Дитяче взуття</a>
-                                </div>
-                                <nav
-                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
-                                >
-                                    <ul class="sub-menu__level-2">
-                                        <li>
-                                            <a href="#">Ботинки</a>
-                                            <ul class="sub-menu__level-3">
-                                                <li>
-                                                    <a href="#"
-                                                        >Демисезонные ботинки</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a href="#"
-                                                        >Зимние ботинки</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Галоши</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Дутики</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кеды</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроссовки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Кроксы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Мокасины</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Резиновая обувь</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сандалии</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сапоги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Слипоны</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сноубутсы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Спорт</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Туфли</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Угги</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Шлёпанцы</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Эспадрильи</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Валенки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Сапоги из пены (ЭВА)</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="#"> Чешки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Домашние тапочки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Сникерсы</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li>
-                                <div class="sub-menu__block-text-1">
-                                    <svg class="svgIcon arrowLeftDopMenu">
-                                        <use xlink:href="#arrowLeftDopMenu" />
-                                    </svg>
-                                    <a href="#">Аксессуари</a>
-                                </div>
-                                <nav
-                                    class="sub-menu__block-level-2 sub-menu__block-level-position-2"
-                                >
-                                    <ul class="sub-menu__level-2 for-kids-2">
-                                        <li>
-                                            <a href="#"> Сумки</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Ремни</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Средства для ухода</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> Коробки под пары</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </li>
-                            <li class="sub-menu__link-warning">
-                                <svg class="svgIcon iconWarning">
-                                    <use xlink:href="#iconWarning" />
+                                    <use href="#arrowLeftDopMenu"></use>
                                 </svg>
-                                <p>Описание раздела</p>
+                                <a class="header__drop-down-list_text" href="$"
+                                    >ЧОЛОВІЧЕ ВЗУТТЯ</a
+                                >
+                                <div class="header__drop-down-list-good_1_padding ">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_mens disabled header__drop-down-list-good_reversed"
+                                    >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">балетки</li>
+                                        <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                        <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                        <li class="header__drop-down-list-goods-li">валянки</li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ГУМОВЕ ВЗУТТЯ
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                        <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                        <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                        <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                        <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                        <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                                        <!--  -->
+                                    </ul>
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                    >
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            черевики
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li
+                                                    class="header__drop-down-list-goods-li_ul_li"
+                                                ></li>
+                                            </ul>
+                                        </li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            ЧОБОТИ
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ЧОБОТИ З ПІНИ (ЕВА)
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
+                                    </ul>
+                                    </div>
+                                    </div>
                             </li>
-                            <li class="sub-menu__link-description">
-                                <p>
-                                    Не проданный или разонравившийся Вам товар
-                                    возвратить либо обменять категорически
-                                    нельзя. Гарантий качества на обувь в
-                                    процессе эксплуатации не предоставляем.
-                                </p>
+                            <li class="header__drop-down-list_li header__drop-down-list_women-trigger">
+                                <svg
+                                    class="svgIcon arrowRightDopMenu "
+                                >
+                                    <use href="#arrowLeftDopMenu"></use>
+                                </svg>
+                                <a class="header__drop-down-list_text" href="$"
+                                    >ЖІНОЧЕ ВЗУТТЯ</a
+                                >
+                                <div class="header__drop-down-list-good_1_padding">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_women disabled header__drop-down-list-good_reversed"
+                                >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">балетки</li>
+                                        <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                        <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                        <li class="header__drop-down-list-goods-li">валянки</li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ГУМОВЕ ВЗУТТЯ
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                        <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                        <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                        <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                        <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                        <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                                        <!--  -->
+                                    </ul>
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">снікерси</li>
+                                        <li class="header__drop-down-list-goods-li">спорт</li>
+                                        <li class="header__drop-down-list-goods-li">туфлі</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            уггі
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">чешки</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            ЧОБОТИ
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ЧОБОТИ З ПІНИ (ЕВА)
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </li>
+                            <li class="header__drop-down-list_li header__drop-down-list_kids-trigger">
+
+                                <svg
+                                    class="svgIcon arrowRightDopMenu "
+                                >
+                                    <use href="#arrowLeftDopMenu"></use>
+                                </svg>
+                                <a class="header__drop-down-list_text" href="$"
+                                    >ДИТЯЧЕ ВЗУТТЯ</a
+                                >
+                                <div class="header__drop-down-list-good_1_padding">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_kids disabled  header__drop-down-list-good_reversed"
+                                >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">балетки</li>
+                                        <li class="header__drop-down-list-goods-li">босоніжки</li>
+                                        <li class="header__drop-down-list-goods-li">ботфорти</li>
+                                        <li class="header__drop-down-list-goods-li">валянки</li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ГУМОВЕ ВЗУТТЯ
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ДУТИКИ</li>
+                                        <li class="header__drop-down-list-goods-li">еспадрильї</li>
+                                        <li class="header__drop-down-list-goods-li">КАЛОШІ</li>
+                                        <li class="header__drop-down-list-goods-li">КАПЦІ</li>
+                                        <li class="header__drop-down-list-goods-li">КЕДИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОКСИ</li>
+                                        <li class="header__drop-down-list-goods-li">КРОСІВКИ</li>
+                                        <li class="header__drop-down-list-goods-li">МОКАСИНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СЛІПОНИ</li>
+                                        <li class="header__drop-down-list-goods-li">СНОУБУТСИ</li>
+                                        <!--  -->
+                                    </ul>
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_2"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">снікерси</li>
+                                        <li class="header__drop-down-list-goods-li">спорт</li>
+                                        <li class="header__drop-down-list-goods-li">туфлі</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            уггі
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">чешки</li>
+                                        <li
+                                            class="header__drop-down-list-goods-li header__drop-down-list-goods-li_parent"
+                                        >
+                                            ЧОБОТИ
+                                            <ul class="header__drop-down-list-goods-li_ul">
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    демі
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    ЗИМА
+                                                </li>
+                                                <li class="header__drop-down-list-goods-li_ul_li">
+                                                    літо
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">
+                                            ЧОБОТИ З ПІНИ (ЕВА)
+                                        </li>
+                                        <li class="header__drop-down-list-goods-li">ШЛЬОПАНЦІ</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </li>
+                            <li class="header__drop-down-list_li header__drop-down-list_accessories-trigger">
+                                <svg
+                                    class="svgIcon arrowRightDopMenu "
+                                >
+                                    <use href="#arrowLeftDopMenu"></use>
+                                </svg>
+                                <a
+                                    class="header__drop-down-list_text header__drop-down-list_text_last"
+                                    href="$"
+                                    >АКСЕСУАРИ</a
+                                >
+                                <div class="header__drop-down-list-good_1_padding">
+                                    <div
+                                    class="header__drop-down-list-good_1 header__drop-down-list_accessories disabled header__drop-down-list-good_reversed header__drop-down-list-good_reversed_accessories"
+                                >
+                                    <ul
+                                        class="header__drop-down-list-goods-ul header__drop-down-list-goods-ul_1"
+                                    >
+                                        <li class="header__drop-down-list-goods-li">сумки</li>
+                                        <li class="header__drop-down-list-goods-li">устілки</li>
+                                    </ul>
+                                </div>
+                            </div>
+                                <!-- here -->
+                                <!--  -->
+
                             </li>
                         </ul>
-                    </nav>
+                        <div class="header__drop-down_list-descr">
+                            <div class="header__drop-down_list-descr_imp-line">
+                                <svg class="svgIcon iconWarning">
+                                    <use href="#iconWarning"></use>
+                                </svg>
+                                <span class="header__drop-down_list-descr_imp-line_text"
+                                    >Опис розділу</span
+                                >
+                            </div>
+                            <span
+                                class="header__drop-down_list-descr_bottom-text max-width-255"
+                            >
+                                Тут знаходяться товари зі знижкою понад 5 грн. Спочатку
+                                ті товари на яких знижка була встановлена нещодавно.
+                            </span>
+                        </div>
+                    </div>  
+                    </div>
                 </li>
             </ul>
+
+            </nav>
         </div>
     </div>
     <div class="header-mobyle__nav header-menu__mobyle">
@@ -1908,6 +1770,7 @@
                     </li>
                     <a href="#" class="profile-exit">Вийти</a>
                 </ul>
+                <!-- here1 -->
 
                 <!-- /===================================/ -->
             </li>
