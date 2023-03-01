@@ -1,519 +1,595 @@
 <div class="swiper-sneakers__container container @@class">
-    <h1 class="swiper-sneakers__title">@@Title</h1>
-    <div class="swiper-main__block-hidden">
+    <span class="swiper-sneakers__title main-title">@@Title</span>
+    <div class="swiper-main__block-hidden slider-block">
         <div class="swiper-sneakers">
             <div class="swiper-wrapper swiper-wrapper-sneakers">
                 <div class="swiper-slide swiper-slide-sneakers">
-                    <div class="sneakers-block">
-                        <div class="sneakers-block__like">
-                            <div class="sneakers-block__min-info">
-                                <svg class="svgIcon iconWarning">
-                                    <use xlink:href="#iconWarning" />
-                                </svg>
-                                <div class="min-info__sneakers">
-                                    <p>Змійка</p>
+                    <div class="product__card card-product">
+                        <div class="card-product__wrap">
+                            <div class="card-product__head">
+                                <div class="card-product__tooltip">
+                                    <svg class="svgIcon iconWarning">
+                                        <use xlink:href="#iconWarning" />
+                                    </svg>
+                                    <div class="card-product__tooltip-hidden">
+                                        <p>Змійка</p>
+                                    </div>
                                 </div>
+                                <svg class="svgIcon likeIcon">
+                                    <use xlink:href="#like-icon" />
+                                </svg>
                             </div>
-                            <img
-                                loading="lazy"
-                                class="sneakers-block__like-icon"
-                                src="./img/swiper/hart.webp"
-                                alt="Like"
-                            />
-                        </div>
-                        <a href="#" class="block-sneakers__link">
-                            <div class="sneakers-img">
+                            <a href="#" class="card-product__body">
                                 <img
-                                    loading="lazy"
                                     src="./img/swiper/shoes.webp"
+                                    width="244"
+                                    height="193"
+                                    class="card-product__img"
                                     alt="Shoes"
                                 />
-                                <div class="sneakers-min-info">
-                                    <p class="sneakers-min-info__green">
-                                        новинка
-                                    </p>
-                                    <p class="sneakers-min-red">знижка -50%</p>
-                                </div>
-                            </div>
-                            <p class="sneakers-cost">2700 ГРН</p>
-                            <p class="sneakers-name">ЧЕРЕВИКИ lqd</p>
-                            <p class="sneakers-teg">m13-1</p>
-                            <p class="sneakers-size">41-46 (8 пар)</p>
-                            <p class="sneakers-dop-info">
-                                <span>Зовні:</span>Натуральний нубук
-                            </p>
-                            <p class="sneakers-dop-info">
-                                <span>Всередині:</span>Текстиль
-                            </p>
-                        </a>
-                        <div class="sneakers-block__hover">
-                            <div class="sneakers-btn">
-                                <!-- sneakers-btn__buy---display-none если в корзине что-то есть -->
-                                <button class="sneakers-btn__buy">
-                                    Купити
-                                </button>
-                                <div
-                                    class="sneakers-btn__there-is display-none"
-                                >
-                                    <button>У кошику: 10 пар</button>
-                                    <button>
-                                        <svg class="svgIcon iconAddBtn">
-                                            <use xlink:href="#iconAddBtn" />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="sneakers-btn__mobyle">
-                                <p class="sneakers-cost__mobyle">2700 ГРН</p>
-                                <button
-                                    class="sneakers-btn__buy-mobyle"
-                                    aria-label="sneakers-btn__buy-mobyle"
-                                >
-                                    <svg class="svgIcon iconBuySneakersBtn">
-                                        <use xlink:href="#iconBuySneakersBtn" />
-                                    </svg>
-                                </button>
-                                <button
-                                    class="sneakers-btn__there-is-mobyle display-none"
-                                >
-                                    <svg
-                                        class="svgIcon iconBuySneakersBtnClick"
+                                <div class="card-product__labels">
+                                    <span class="card-product__label new"
+                                        >знижка -50%</span
                                     >
-                                        <use
-                                            xlink:href="#iconBuySneakersBtnClick"
-                                        />
-                                    </svg>
-                                    <p>8</p>
+                                    <span class="card-product__label sale"
+                                        >New</span
+                                    >
+                                </div>
+                                <div class="card-product__price">
+                                    <span class="card-product__price-old"
+                                        >3100</span
+                                    >
+                                    <span class="card-product__price-current"
+                                        >2700грн</span
+                                    >
+                                </div>
+                                <h3 class="card-product__title">
+                                    ЧЕРЕВИКИ lqd
+                                </h3>
+                                <div class="card-product__model">m13-1</div>
+                                <div class="card-product__size">
+                                    41-46 (8 пар)
+                                </div>
+                                <div class="card-product_hide">
+                                    <div class="card-product__out">
+                                        Зовні:
+                                        <span class="card-product__out-value">
+                                            Натуральний нубук
+                                        </span>
+                                    </div>
+                                    <div class="card-product__inside">
+                                        Всередині:
+                                        <span
+                                            class="card-product__inside-value"
+                                        >
+                                            Текстиль
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div
+                                class="card-product_hide card-product_hide_last"
+                            >
+                                <button class="card-product__btn main-btn">
+                                    Купити
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide swiper-slide-sneakers">
-                    <div class="sneakers-block">
-                        <div class="sneakers-block__like">
-                            <div class="sneakers-block__min-info">
-                                <svg class="svgIcon iconWarning">
-                                    <use xlink:href="#iconWarning" />
-                                </svg>
-                                <div class="min-info__sneakers">
-                                    <p>Змійка</p>
+                    <div class="product__card card-product">
+                        <div class="card-product__wrap">
+                            <div class="card-product__head">
+                                <div class="card-product__tooltip">
+                                    <svg class="svgIcon iconWarning">
+                                        <use xlink:href="#iconWarning" />
+                                    </svg>
+                                    <div class="card-product__tooltip-hidden">
+                                        <p>Змійка</p>
+                                    </div>
                                 </div>
+                                <svg class="svgIcon likeIcon">
+                                    <use xlink:href="#like-icon" />
+                                </svg>
                             </div>
-                            <img
-                                loading="lazy"
-                                class="sneakers-block__like-icon"
-                                src="./img/swiper/hart.webp"
-                                alt="Like"
-                            />
-                        </div>
-                        <a href="#" class="block-sneakers__link">
-                            <div class="sneakers-img">
+                            <a href="#" class="card-product__body">
                                 <img
-                                    loading="lazy"
                                     src="./img/swiper/shoes.webp"
+                                    width="244"
+                                    height="193"
+                                    class="card-product__img"
                                     alt="Shoes"
                                 />
-                                <div class="sneakers-min-info">
-                                    <p class="sneakers-min-info__green">
-                                        новинка
-                                    </p>
-                                    <p class="sneakers-min-red">знижка -50%</p>
-                                </div>
-                            </div>
-                            <p class="sneakers-cost">2700 ГРН</p>
-                            <p class="sneakers-name">ЧЕРЕВИКИ lqd</p>
-                            <p class="sneakers-teg">m13-1</p>
-                            <p class="sneakers-size">41-46 (8 пар)</p>
-                            <p class="sneakers-dop-info">
-                                <span>Зовні:</span>Натуральний нубук
-                            </p>
-                            <p class="sneakers-dop-info">
-                                <span>Всередині:</span>Текстиль
-                            </p>
-                        </a>
-                        <div class="sneakers-block__hover">
-                            <div class="sneakers-btn">
-                                <!-- sneakers-btn__buy---display-none если в корзине что-то есть -->
-                                <button class="sneakers-btn__buy">
-                                    Купити
-                                </button>
-                                <div
-                                    class="sneakers-btn__there-is display-none"
-                                >
-                                    <button>У кошику: 10 пар</button>
-                                    <button>
-                                        <svg class="svgIcon iconAddBtn">
-                                            <use xlink:href="#iconAddBtn" />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="sneakers-btn__mobyle">
-                                <p class="sneakers-cost__mobyle">2700 ГРН</p>
-                                <button
-                                    class="sneakers-btn__buy-mobyle"
-                                    aria-label="sneakers-btn__buy-mobyle"
-                                >
-                                    <svg class="svgIcon iconBuySneakersBtn">
-                                        <use xlink:href="#iconBuySneakersBtn" />
-                                    </svg>
-                                </button>
-                                <button
-                                    class="sneakers-btn__there-is-mobyle display-none"
-                                >
-                                    <svg
-                                        class="svgIcon iconBuySneakersBtnClick"
+                                <div class="card-product__labels">
+                                    <span class="card-product__label new"
+                                        >знижка -50%</span
                                     >
-                                        <use
-                                            xlink:href="#iconBuySneakersBtnClick"
-                                        />
-                                    </svg>
-                                    <p>8</p>
+                                    <span class="card-product__label sale"
+                                        >New</span
+                                    >
+                                </div>
+                                <div class="card-product__price">
+                                    <span class="card-product__price-old"
+                                        >3100</span
+                                    >
+                                    <span class="card-product__price-current"
+                                        >2700грн</span
+                                    >
+                                </div>
+                                <h3 class="card-product__title">
+                                    ЧЕРЕВИКИ lqd
+                                </h3>
+                                <div class="card-product__model">m13-1</div>
+                                <div class="card-product__size">
+                                    41-46 (8 пар)
+                                </div>
+                                <div class="card-product_hide">
+                                    <div class="card-product__out">
+                                        Зовні:
+                                        <span class="card-product__out-value">
+                                            Натуральний нубук
+                                        </span>
+                                    </div>
+                                    <div class="card-product__inside">
+                                        Всередині:
+                                        <span
+                                            class="card-product__inside-value"
+                                        >
+                                            Текстиль
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div
+                                class="card-product_hide card-product_hide_last"
+                            >
+                                <button class="card-product__btn main-btn">
+                                    Купити
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide swiper-slide-sneakers">
-                    <div class="sneakers-block">
-                        <div class="sneakers-block__like">
-                            <div class="sneakers-block__min-info">
-                                <svg class="svgIcon iconWarning">
-                                    <use xlink:href="#iconWarning" />
-                                </svg>
-                                <div class="min-info__sneakers">
-                                    <p>Змійка</p>
+                    <div class="product__card card-product">
+                        <div class="card-product__wrap">
+                            <div class="card-product__head">
+                                <div class="card-product__tooltip">
+                                    <svg class="svgIcon iconWarning">
+                                        <use xlink:href="#iconWarning" />
+                                    </svg>
+                                    <div class="card-product__tooltip-hidden">
+                                        <p>Змійка</p>
+                                    </div>
                                 </div>
+                                <svg class="svgIcon likeIcon">
+                                    <use xlink:href="#like-icon" />
+                                </svg>
                             </div>
-                            <img
-                                loading="lazy"
-                                class="sneakers-block__like-icon"
-                                src="./img/swiper/hart.webp"
-                                alt="Like"
-                            />
-                        </div>
-                        <a href="#" class="block-sneakers__link">
-                            <div class="sneakers-img">
+                            <a href="#" class="card-product__body">
                                 <img
-                                    loading="lazy"
                                     src="./img/swiper/shoes.webp"
+                                    width="244"
+                                    height="193"
+                                    class="card-product__img"
                                     alt="Shoes"
                                 />
-                                <div class="sneakers-min-info">
-                                    <p class="sneakers-min-info__green">
-                                        новинка
-                                    </p>
-                                    <p class="sneakers-min-red">знижка -50%</p>
-                                </div>
-                            </div>
-                            <p class="sneakers-cost">2700 ГРН</p>
-                            <p class="sneakers-name">ЧЕРЕВИКИ lqd</p>
-                            <p class="sneakers-teg">m13-1</p>
-                            <p class="sneakers-size">41-46 (8 пар)</p>
-                            <p class="sneakers-dop-info">
-                                <span>Зовні:</span>Натуральний нубук
-                            </p>
-                            <p class="sneakers-dop-info">
-                                <span>Всередині:</span>Текстиль
-                            </p>
-                        </a>
-                        <div class="sneakers-block__hover">
-                            <div class="sneakers-btn">
-                                <!-- sneakers-btn__buy---display-none если в корзине что-то есть -->
-                                <button class="sneakers-btn__buy">
-                                    Купити
-                                </button>
-                                <div
-                                    class="sneakers-btn__there-is display-none"
-                                >
-                                    <button>У кошику: 10 пар</button>
-                                    <button>
-                                        <svg class="svgIcon iconAddBtn">
-                                            <use xlink:href="#iconAddBtn" />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="sneakers-btn__mobyle">
-                                <p class="sneakers-cost__mobyle">2700 ГРН</p>
-                                <button
-                                    class="sneakers-btn__buy-mobyle"
-                                    aria-label="sneakers-btn__buy-mobyle"
-                                >
-                                    <svg class="svgIcon iconBuySneakersBtn">
-                                        <use xlink:href="#iconBuySneakersBtn" />
-                                    </svg>
-                                </button>
-                                <button
-                                    class="sneakers-btn__there-is-mobyle display-none"
-                                >
-                                    <svg
-                                        class="svgIcon iconBuySneakersBtnClick"
+                                <div class="card-product__labels">
+                                    <span class="card-product__label new"
+                                        >знижка -50%</span
                                     >
-                                        <use
-                                            xlink:href="#iconBuySneakersBtnClick"
-                                        />
-                                    </svg>
-                                    <p>8</p>
+                                    <span class="card-product__label sale"
+                                        >New</span
+                                    >
+                                </div>
+                                <div class="card-product__price">
+                                    <span class="card-product__price-old"
+                                        >3100</span
+                                    >
+                                    <span class="card-product__price-current"
+                                        >2700грн</span
+                                    >
+                                </div>
+                                <h3 class="card-product__title">
+                                    ЧЕРЕВИКИ lqd
+                                </h3>
+                                <div class="card-product__model">m13-1</div>
+                                <div class="card-product__size">
+                                    41-46 (8 пар)
+                                </div>
+                                <div class="card-product_hide">
+                                    <div class="card-product__out">
+                                        Зовні:
+                                        <span class="card-product__out-value">
+                                            Натуральний нубук
+                                        </span>
+                                    </div>
+                                    <div class="card-product__inside">
+                                        Всередині:
+                                        <span
+                                            class="card-product__inside-value"
+                                        >
+                                            Текстиль
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div
+                                class="card-product_hide card-product_hide_last"
+                            >
+                                <button class="card-product__btn main-btn">
+                                    Купити
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide swiper-slide-sneakers">
-                    <div class="sneakers-block">
-                        <div class="sneakers-block__like">
-                            <div class="sneakers-block__min-info">
-                                <svg class="svgIcon iconWarning">
-                                    <use xlink:href="#iconWarning" />
-                                </svg>
-                                <div class="min-info__sneakers">
-                                    <p>Змійка</p>
+                    <div class="product__card card-product">
+                        <div class="card-product__wrap">
+                            <div class="card-product__head">
+                                <div class="card-product__tooltip">
+                                    <svg class="svgIcon iconWarning">
+                                        <use xlink:href="#iconWarning" />
+                                    </svg>
+                                    <div class="card-product__tooltip-hidden">
+                                        <p>Змійка</p>
+                                    </div>
                                 </div>
+                                <svg class="svgIcon likeIcon">
+                                    <use xlink:href="#like-icon" />
+                                </svg>
                             </div>
-                            <img
-                                loading="lazy"
-                                class="sneakers-block__like-icon"
-                                src="./img/swiper/hart.webp"
-                                alt="Like"
-                            />
-                        </div>
-                        <a href="#" class="block-sneakers__link">
-                            <div class="sneakers-img">
+                            <a href="#" class="card-product__body">
                                 <img
-                                    loading="lazy"
                                     src="./img/swiper/shoes.webp"
+                                    width="244"
+                                    height="193"
+                                    class="card-product__img"
                                     alt="Shoes"
                                 />
-                                <div class="sneakers-min-info">
-                                    <p class="sneakers-min-info__green">
-                                        новинка
-                                    </p>
-                                    <p class="sneakers-min-red">знижка -50%</p>
-                                </div>
-                            </div>
-                            <p class="sneakers-cost">2700 ГРН</p>
-                            <p class="sneakers-name">ЧЕРЕВИКИ lqd</p>
-                            <p class="sneakers-teg">m13-1</p>
-                            <p class="sneakers-size">41-46 (8 пар)</p>
-                            <p class="sneakers-dop-info">
-                                <span>Зовні:</span>Натуральний нубук
-                            </p>
-                            <p class="sneakers-dop-info">
-                                <span>Всередині:</span>Текстиль
-                            </p>
-                        </a>
-                        <div class="sneakers-block__hover">
-                            <div class="sneakers-btn">
-                                <!-- sneakers-btn__buy---display-none если в корзине что-то есть -->
-                                <button class="sneakers-btn__buy">
-                                    Купити
-                                </button>
-                                <div
-                                    class="sneakers-btn__there-is display-none"
-                                >
-                                    <button>У кошику: 10 пар</button>
-                                    <button>
-                                        <svg class="svgIcon iconAddBtn">
-                                            <use xlink:href="#iconAddBtn" />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="sneakers-btn__mobyle">
-                                <p class="sneakers-cost__mobyle">2700 ГРН</p>
-                                <button
-                                    class="sneakers-btn__buy-mobyle"
-                                    aria-label="sneakers-btn__buy-mobyle"
-                                >
-                                    <svg class="svgIcon iconBuySneakersBtn">
-                                        <use xlink:href="#iconBuySneakersBtn" />
-                                    </svg>
-                                </button>
-                                <button
-                                    class="sneakers-btn__there-is-mobyle display-none"
-                                >
-                                    <svg
-                                        class="svgIcon iconBuySneakersBtnClick"
+                                <div class="card-product__labels">
+                                    <span class="card-product__label new"
+                                        >знижка -50%</span
                                     >
-                                        <use
-                                            xlink:href="#iconBuySneakersBtnClick"
-                                        />
-                                    </svg>
-                                    <p>8</p>
+                                    <span class="card-product__label sale"
+                                        >New</span
+                                    >
+                                </div>
+                                <div class="card-product__price">
+                                    <span class="card-product__price-old"
+                                        >3100</span
+                                    >
+                                    <span class="card-product__price-current"
+                                        >2700грн</span
+                                    >
+                                </div>
+                                <h3 class="card-product__title">
+                                    ЧЕРЕВИКИ lqd
+                                </h3>
+                                <div class="card-product__model">m13-1</div>
+                                <div class="card-product__size">
+                                    41-46 (8 пар)
+                                </div>
+                                <div class="card-product_hide">
+                                    <div class="card-product__out">
+                                        Зовні:
+                                        <span class="card-product__out-value">
+                                            Натуральний нубук
+                                        </span>
+                                    </div>
+                                    <div class="card-product__inside">
+                                        Всередині:
+                                        <span
+                                            class="card-product__inside-value"
+                                        >
+                                            Текстиль
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div
+                                class="card-product_hide card-product_hide_last"
+                            >
+                                <button class="card-product__btn main-btn">
+                                    Купити
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide swiper-slide-sneakers">
-                    <div class="sneakers-block">
-                        <div class="sneakers-block__like">
-                            <div class="sneakers-block__min-info">
-                                <svg class="svgIcon iconWarning">
-                                    <use xlink:href="#iconWarning" />
-                                </svg>
-                                <div class="min-info__sneakers">
-                                    <p>Змійка</p>
+                    <div class="product__card card-product">
+                        <div class="card-product__wrap">
+                            <div class="card-product__head">
+                                <div class="card-product__tooltip">
+                                    <svg class="svgIcon iconWarning">
+                                        <use xlink:href="#iconWarning" />
+                                    </svg>
+                                    <div class="card-product__tooltip-hidden">
+                                        <p>Змійка</p>
+                                    </div>
                                 </div>
+                                <svg class="svgIcon likeIcon">
+                                    <use xlink:href="#like-icon" />
+                                </svg>
                             </div>
-                            <img
-                                loading="lazy"
-                                class="sneakers-block__like-icon"
-                                src="./img/swiper/hart.webp"
-                                alt="Like"
-                            />
-                        </div>
-                        <a href="#" class="block-sneakers__link">
-                            <div class="sneakers-img">
+                            <a href="#" class="card-product__body">
                                 <img
-                                    loading="lazy"
                                     src="./img/swiper/shoes.webp"
+                                    width="244"
+                                    height="193"
+                                    class="card-product__img"
                                     alt="Shoes"
                                 />
-                                <div class="sneakers-min-info">
-                                    <p class="sneakers-min-info__green">
-                                        новинка
-                                    </p>
-                                    <p class="sneakers-min-red">знижка -50%</p>
-                                </div>
-                            </div>
-                            <p class="sneakers-cost">2700 ГРН</p>
-                            <p class="sneakers-name">ЧЕРЕВИКИ lqd</p>
-                            <p class="sneakers-teg">m13-1</p>
-                            <p class="sneakers-size">41-46 (8 пар)</p>
-                            <p class="sneakers-dop-info">
-                                <span>Зовні:</span>Натуральний нубук
-                            </p>
-                            <p class="sneakers-dop-info">
-                                <span>Всередині:</span>Текстиль
-                            </p>
-                        </a>
-                        <div class="sneakers-block__hover">
-                            <div class="sneakers-btn">
-                                <!-- sneakers-btn__buy---display-none если в корзине что-то есть -->
-                                <button class="sneakers-btn__buy">
-                                    Купити
-                                </button>
-                                <div
-                                    class="sneakers-btn__there-is display-none"
-                                >
-                                    <button>У кошику: 10 пар</button>
-                                    <button>
-                                        <svg class="svgIcon iconAddBtn">
-                                            <use xlink:href="#iconAddBtn" />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="sneakers-btn__mobyle">
-                                <p class="sneakers-cost__mobyle">2700 ГРН</p>
-                                <button
-                                    class="sneakers-btn__buy-mobyle"
-                                    aria-label="sneakers-btn__buy-mobyle"
-                                >
-                                    <svg class="svgIcon iconBuySneakersBtn">
-                                        <use xlink:href="#iconBuySneakersBtn" />
-                                    </svg>
-                                </button>
-                                <button
-                                    class="sneakers-btn__there-is-mobyle display-none"
-                                >
-                                    <svg
-                                        class="svgIcon iconBuySneakersBtnClick"
+                                <div class="card-product__labels">
+                                    <span class="card-product__label new"
+                                        >знижка -50%</span
                                     >
-                                        <use
-                                            xlink:href="#iconBuySneakersBtnClick"
-                                        />
-                                    </svg>
-                                    <p>8</p>
+                                    <span class="card-product__label sale"
+                                        >New</span
+                                    >
+                                </div>
+                                <div class="card-product__price">
+                                    <span class="card-product__price-old"
+                                        >3100</span
+                                    >
+                                    <span class="card-product__price-current"
+                                        >2700грн</span
+                                    >
+                                </div>
+                                <h3 class="card-product__title">
+                                    ЧЕРЕВИКИ lqd
+                                </h3>
+                                <div class="card-product__model">m13-1</div>
+                                <div class="card-product__size">
+                                    41-46 (8 пар)
+                                </div>
+                                <div class="card-product_hide">
+                                    <div class="card-product__out">
+                                        Зовні:
+                                        <span class="card-product__out-value">
+                                            Натуральний нубук
+                                        </span>
+                                    </div>
+                                    <div class="card-product__inside">
+                                        Всередині:
+                                        <span
+                                            class="card-product__inside-value"
+                                        >
+                                            Текстиль
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div
+                                class="card-product_hide card-product_hide_last"
+                            >
+                                <button class="card-product__btn main-btn">
+                                    Купити
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide swiper-slide-sneakers">
-                    <div class="sneakers-block">
-                        <div class="sneakers-block__like">
-                            <div class="sneakers-block__min-info">
-                                <svg class="svgIcon iconWarning">
-                                    <use xlink:href="#iconWarning" />
-                                </svg>
-                                <div class="min-info__sneakers">
-                                    <p>Змійка</p>
+                    <div class="product__card card-product">
+                        <div class="card-product__wrap">
+                            <div class="card-product__head">
+                                <div class="card-product__tooltip">
+                                    <svg class="svgIcon iconWarning">
+                                        <use xlink:href="#iconWarning" />
+                                    </svg>
+                                    <div class="card-product__tooltip-hidden">
+                                        <p>Змійка</p>
+                                    </div>
                                 </div>
+                                <svg class="svgIcon likeIcon">
+                                    <use xlink:href="#like-icon" />
+                                </svg>
                             </div>
-                            <img
-                                loading="lazy"
-                                class="sneakers-block__like-icon"
-                                src="./img/swiper/hart.webp"
-                                alt="Like"
-                            />
-                        </div>
-                        <a href="#" class="block-sneakers__link">
-                            <div class="sneakers-img">
+                            <a href="#" class="card-product__body">
                                 <img
-                                    loading="lazy"
                                     src="./img/swiper/shoes.webp"
+                                    width="244"
+                                    height="193"
+                                    class="card-product__img"
                                     alt="Shoes"
                                 />
-                                <div class="sneakers-min-info">
-                                    <p class="sneakers-min-info__green">
-                                        новинка
-                                    </p>
-                                    <p class="sneakers-min-red">знижка -50%</p>
+                                <div class="card-product__labels">
+                                    <span class="card-product__label new"
+                                        >знижка -50%</span
+                                    >
+                                    <span class="card-product__label sale"
+                                        >New</span
+                                    >
                                 </div>
-                            </div>
-                            <p class="sneakers-cost">2700 ГРН</p>
-                            <p class="sneakers-name">ЧЕРЕВИКИ lqd</p>
-                            <p class="sneakers-teg">m13-1</p>
-                            <p class="sneakers-size">41-46 (8 пар)</p>
-                            <p class="sneakers-dop-info">
-                                <span>Зовні:</span>Натуральний нубук
-                            </p>
-                            <p class="sneakers-dop-info">
-                                <span>Всередині:</span>Текстиль
-                            </p>
-                        </a>
-                        <div class="sneakers-block__hover">
-                            <div class="sneakers-btn">
-                                <!-- sneakers-btn__buy---display-none если в корзине что-то есть -->
-                                <button class="sneakers-btn__buy">
+                                <div class="card-product__price">
+                                    <span class="card-product__price-old"
+                                        >3100</span
+                                    >
+                                    <span class="card-product__price-current"
+                                        >2700грн</span
+                                    >
+                                </div>
+                                <h3 class="card-product__title">
+                                    ЧЕРЕВИКИ lqd
+                                </h3>
+                                <div class="card-product__model">m13-1</div>
+                                <div class="card-product__size">
+                                    41-46 (8 пар)
+                                </div>
+                                <div class="card-product_hide">
+                                    <div class="card-product__out">
+                                        Зовні:
+                                        <span class="card-product__out-value">
+                                            Натуральний нубук
+                                        </span>
+                                    </div>
+                                    <div class="card-product__inside">
+                                        Всередині:
+                                        <span
+                                            class="card-product__inside-value"
+                                        >
+                                            Текстиль
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div
+                                class="card-product_hide card-product_hide_last"
+                            >
+                                <button class="card-product__btn main-btn">
                                     Купити
                                 </button>
-                                <div
-                                    class="sneakers-btn__there-is display-none"
-                                >
-                                    <button>У кошику: 10 пар</button>
-                                    <button>
-                                        <svg class="svgIcon iconAddBtn">
-                                            <use xlink:href="#iconAddBtn" />
-                                        </svg>
-                                    </button>
-                                </div>
                             </div>
-                            <div class="sneakers-btn__mobyle">
-                                <p class="sneakers-cost__mobyle">2700 ГРН</p>
-                                <button
-                                    class="sneakers-btn__buy-mobyle"
-                                    aria-label="sneakers-btn__buy-mobyle"
-                                >
-                                    <svg class="svgIcon iconBuySneakersBtn">
-                                        <use xlink:href="#iconBuySneakersBtn" />
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-sneakers">
+                    <div class="product__card card-product">
+                        <div class="card-product__wrap">
+                            <div class="card-product__head">
+                                <div class="card-product__tooltip">
+                                    <svg class="svgIcon iconWarning">
+                                        <use xlink:href="#iconWarning" />
                                     </svg>
-                                </button>
-                                <button
-                                    class="sneakers-btn__there-is-mobyle display-none"
-                                >
-                                    <svg
-                                        class="svgIcon iconBuySneakersBtnClick"
+                                    <div class="card-product__tooltip-hidden">
+                                        <p>Змійка</p>
+                                    </div>
+                                </div>
+                                <svg class="svgIcon likeIcon">
+                                    <use xlink:href="#like-icon" />
+                                </svg>
+                            </div>
+                            <a href="#" class="card-product__body">
+                                <img
+                                    src="./img/swiper/shoes.webp"
+                                    width="244"
+                                    height="193"
+                                    class="card-product__img"
+                                    alt="Shoes"
+                                />
+                                <div class="card-product__labels">
+                                    <span class="card-product__label new"
+                                        >знижка -50%</span
                                     >
-                                        <use
-                                            xlink:href="#iconBuySneakersBtnClick"
-                                        />
+                                    <span class="card-product__label sale"
+                                        >New</span
+                                    >
+                                </div>
+                                <div class="card-product__price">
+                                    <span class="card-product__price-old"
+                                        >3100</span
+                                    >
+                                    <span class="card-product__price-current"
+                                        >2700грн</span
+                                    >
+                                </div>
+                                <h3 class="card-product__title">
+                                    ЧЕРЕВИКИ lqd
+                                </h3>
+                                <div class="card-product__model">m13-1</div>
+                                <div class="card-product__size">
+                                    41-46 (8 пар)
+                                </div>
+                                <div class="card-product_hide">
+                                    <div class="card-product__out">
+                                        Зовні:
+                                        <span class="card-product__out-value">
+                                            Натуральний нубук
+                                        </span>
+                                    </div>
+                                    <div class="card-product__inside">
+                                        Всередині:
+                                        <span
+                                            class="card-product__inside-value"
+                                        >
+                                            Текстиль
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div
+                                class="card-product_hide card-product_hide_last"
+                            >
+                                <button class="card-product__btn main-btn">
+                                    Купити
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-sneakers">
+                    <div class="product__card card-product">
+                        <div class="card-product__wrap">
+                            <div class="card-product__head">
+                                <div class="card-product__tooltip">
+                                    <svg class="svgIcon iconWarning">
+                                        <use xlink:href="#iconWarning" />
                                     </svg>
-                                    <p>8</p>
+                                    <div class="card-product__tooltip-hidden">
+                                        <p>Змійка</p>
+                                    </div>
+                                </div>
+                                <svg class="svgIcon likeIcon">
+                                    <use xlink:href="#like-icon" />
+                                </svg>
+                            </div>
+                            <a href="#" class="card-product__body">
+                                <img
+                                    src="./img/swiper/shoes.webp"
+                                    width="244"
+                                    height="193"
+                                    class="card-product__img"
+                                    alt="Shoes"
+                                />
+                                <div class="card-product__labels">
+                                    <span class="card-product__label new"
+                                        >знижка -50%</span
+                                    >
+                                    <span class="card-product__label sale"
+                                        >New</span
+                                    >
+                                </div>
+                                <div class="card-product__price">
+                                    <span class="card-product__price-old"
+                                        >3100</span
+                                    >
+                                    <span class="card-product__price-current"
+                                        >2700грн</span
+                                    >
+                                </div>
+                                <h3 class="card-product__title">
+                                    ЧЕРЕВИКИ lqd
+                                </h3>
+                                <div class="card-product__model">m13-1</div>
+                                <div class="card-product__size">
+                                    41-46 (8 пар)
+                                </div>
+                                <div class="card-product_hide">
+                                    <div class="card-product__out">
+                                        Зовні:
+                                        <span class="card-product__out-value">
+                                            Натуральний нубук
+                                        </span>
+                                    </div>
+                                    <div class="card-product__inside">
+                                        Всередині:
+                                        <span
+                                            class="card-product__inside-value"
+                                        >
+                                            Текстиль
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div
+                                class="card-product_hide card-product_hide_last"
+                            >
+                                <button class="card-product__btn main-btn">
+                                    Купити
                                 </button>
                             </div>
                         </div>
@@ -524,7 +600,6 @@
     </div>
 
     <div class="swiper-button-prev swiper-sneakers__button-prev">
-        <!-- <img loading="lazy" src="img/swiper/left.webp" alt="Arrow-prev" /> -->
         <svg class="slider-small-arrow">
             <use href="#slider-left-arrow"></use>
         </svg>
